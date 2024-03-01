@@ -1,3 +1,12 @@
+<!--
+ * @Author: “random-zhou” 2501601106@qq.com
+ * @Date: 2024-03-01 20:12:43
+ * @LastEditors: “random-zhou” 2501601106@qq.com
+ * @LastEditTime: 2024-03-02 00:45:48
+ * @FilePath: \HzMi-StudyTime\basement\markdown基础操作教学.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+
 # Markdown基础教学
 
 ## 1 简介
@@ -11,28 +20,27 @@
         -   优点: 直观, 上手方便, 会打字就行, 通用性强
         -   缺点: 不能插入图片表格链接等复杂格式内容, 不能设定某一部分的字体文字大小, 只能显示纯文本
 
-        <img src="markdown.assets/4.1.1.png" alt="4.1.1" style="zoom:50%;" />
+
 
     -   <kbd>.doc</kbd>和<kbd>.docx</kbd>格式, Microsoft Office文本文档
 
         -   优点: 纯文本编辑文件, 文件自动编码为doc相关格式, 因此打字设置格式均相对直观, 用户可实时查看输入内容, 上手方便, 下限高, 适合办公, 受办公软件如WPS, Microsoft Word, Libre Office支持, 可直接查看也可导出pdf
         -   缺点: 编辑和插入公式较困难, 相较其他几种文本格式, 版本兼容性问题较大, 某些正式学术场合较不适用
 
-        <img src="markdown.assets/4.1.2.png" style="zoom:50%;" />
+
 
     -   <kbd>.tex</kbd>格式, LaTeX代码文档
 
         -   优点: 纯文本编辑代码, 专业的排版系统, 规范统一模板后可快速对文档进行排版, 适合排版学术论文, 公式等, 上限极高, 很多学术论文均使用LaTeX相关语言代码排版后编译导出pdf发布
         -   缺点: 上手难, 语法复杂, 需要若干次不同的编译链接等操作才能查看, 较难实时显示改动
 
-        <img src="markdown.assets/4.1.3.png" style="zoom:50%;" />
 
     -   <kbd>.html</kbd>, 超文本标记语言 (Hyper Text Mark up Language)
 
         -   优点: 纯文本编辑代码, 用户自主设计空间较大, 适合网页开发与浏览器呈现, 支持读者交互
         -   缺点: 上手难, 有很多 " 特性 " 需要掌握, 如果想要排得视觉效果优秀需要依赖较好的<kbd>.css</kbd>层叠样式表文件 ( Cascading Style Sheets ) 
 
-        <img src="markdown.assets/4.1.4.png" style="zoom:50%;" />
+
 
 -   <kbd>.md</kbd>格式, Markdown代码文档
     -   上手较简单
@@ -43,25 +51,17 @@
     -   支持部分html语言
     -   支持部分LaTeX语言
 
-### 1.2 Markdown与Typora
 
-?		首先, Markdown是一种语言或者一种文本格式, 而将这种格式呈现在我们眼中, 让我们看到排版好文字的物质是编辑器. Typora是一种常用的Markdown编辑器
-
-?		该软件目前收费, 但我有一版免费旧版本安装包, 在我的个人主页http://home.ustc.edu.cn/~yssickjgd下载, 下载后直接默认安装即可
-
-<img src="markdown.assets/4.1.5.png" style="zoom:50%;" />
 
 ## 2 Markdown教学
 
 -   细节注意
 
     -   自动匹配括号和字符, 使打字更方便高效
-
-        <img src="markdown.assets/4.1.6.png" style="zoom: 67%;" />
+>
 
     -   插入图片优先使用相对路径, 便于分享等操作
 
-        <img src="markdown.assets/4.1.7.png" style="zoom:67%;" />
 
     -   切换输入法为中文半角输入, 系统默认输入法可以通过<kbd>Ctrl</kbd>+<kbd>.</kbd>切换
 
