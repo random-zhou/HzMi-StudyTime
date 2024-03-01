@@ -32,43 +32,30 @@
 
 
 ### Computer-Vision
-|model               |Paper                                                 |                   CODE_version                                        |
-|--------------------|------------------------------------------------------|-----------------------------------------------------------------------|
-|YOLO-series         |[yolov1](Paper\YOLOv1.pdf)                            |- [YOLOv1]();                                                          |
-|                    |[yolov2](Paper\YOLOv2.pdf)                            |- [YOLOv2]();                                                          | 
-|                    |[yolov3](Paper\YOLOv3.pdf)                            |- [YOLOv3]();                                                          |
-|                    |[yolov4](Paper\YOLOv4.pdf)                            |- [YOLOv4]();                                                          |
-|                    |[yolov5](Paper\YOLOv5.pdf)                            |- [YOLOv5]();                                                          |
-|                    |[yolov6]()                                            |- [YOLOv6]();                                                          |
-|                    |[yolov7]()                                            |- [YOLOv7]();                                                          |
-|                    |[yolov8]()                                            |- [YOLOv8]();                                                          |
-|                    |[yolov9]()                                            |- [YOLOv9]();                                                          |
-|                    |                                                      |- [YOLOv5-lite]();                                                     |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|CNN-series          |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|RNN-series          |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|GAN-series          |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-
+|model               |Paper                                                                            |                   CODE_version                                        |
+|--------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+|YOLO-series         |[yolov1](Paper\YOLOv1.pdf);[yolov2](Paper\YOLOv2.pdf);[yolov3](Paper\YOLOv3.pdf);|[YOLOv1]();[YOLOv2]();[YOLOv3]();                                      |           
+|                    |[yolov4](Paper\YOLOv4.pdf);[yolov5](Paper\YOLOv5.pdf);[yolov6]();                |[YOLOv4]();[YOLOv5]();[YOLOv6]();                                      |
+|                    |[yolov7]();[yolov8]();[yolov9]();                                                |[YOLOv7]();[YOLOv8]();[YOLOv9]();                                      | 
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
+|                    |                                                                                 |                                                                       |
 
 ### Large-Language-Model
 |model               |Paper                                                 |                   version                                             |
