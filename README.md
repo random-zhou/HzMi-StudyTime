@@ -6,15 +6,31 @@
 ### Basement
 |basement            |related information                                                                                                                                                                                  |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|vscode              |[vscode]()                                                                                                                                                                                           |
 |Linux               |[Linux](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Linux%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%95%99%E5%AD%A6.md)                                                             |                                                                       
 |Git                 |[Git](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%95%99%E5%AD%A6.md)                                                                 |                                                                       
 |Markdown            |[Markdown](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/markdown%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%95%99%E5%AD%A6.md)                                                       |                                                                     
 |Python              |[Python](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Python%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                                             |                                                                       
 |C                   |[C](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                                     |                                                                       
 |C++                 |[C++](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/C%2B%2B%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                             |                                                                       
-|                    |                                                                                                                                                                                                     |                                                                       
-|                    |                                                                                                                                                                                                     |                                                                       
-|                    |                                                                                                                                                                                                     |                                                                       
+|Miniconda           |[Miniconda]()                                                                                                                                                                                        |                                                                       
+|Server-connection(服务器连接)|                                                                                                                                                                          |                                                                       
+|WSL2                |                                                                                                                                                                                                     |         
+|Chatgpt             |                                                                                                                                                                                                     |    
+|netron(神经网络可视化工具)         |                                                                                                                                                                                                     |    
+|                    |                                                                                                                                                                                                     |    
+|                    |                                                                                                                                                                                                     |    
+|                    |                                                                                                                                                                                                     |    
+|                    |                                                                                                                                                                                                     |    
+|                    |                                                                                                                                                                                                     |    
+|                    |                                                                                                                                                                                                     |    
+|                    |                                                                                                                                                                                                     |    
+|                    |                                                                                                                                                                                                     |    
+|                    |                                                                                                                                                                                                     |    
+
+
+
+
 ### MCU 
 |brand_name       |related information            |
 |------------------|-------------------------------| 
@@ -35,24 +51,6 @@
 |                  |                               |
 |                  |                               |
 
-### Module
-
-|module              |related information                                   |code_example(stm32f103-series,stm32f407-series,stm32f427-series,stm32h743-series,stm32h750-series)                                                           |
-|--------------------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|tb6612              |                                                      |                                                                                                                                                             |
-|mpu6050             |                                                      |                                                                       |
-|mpu9250             |                                                      |                                                                       |
-|oled_iic            |                                                      |                                                                       |
-|lcd                 |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
 
 ### control_algorithm
 
