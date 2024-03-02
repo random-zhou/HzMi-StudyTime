@@ -1,5 +1,5 @@
 # HzMi-StudyTime
-
+持续更新中，有用的话请帮我右上角点一个star
 ![alt text](basement/all_image/md_image/md_image1.png)
 
 # 链接直通车
