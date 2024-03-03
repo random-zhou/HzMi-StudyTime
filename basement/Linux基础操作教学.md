@@ -653,6 +653,53 @@ curl -O https://www.binbin.net/wiki/文件:Test-1111.png
 - scp是用于通过SSH发送文件的命令，可以通过此命令来实现树莓派和Windows计算机之间的文件传输。
 - (未完待续)
 
+#### vim
+- vim进行文件的编辑
+- vim是Linux上自带的文本编辑器，相当于windows上的记事本。
+- vim的基本使用
+    - 打开文件
+    - 编辑文件
+    - 保存退出
+-上述的三个vim的操作是最基本的使用。
+
+- 1：打开文件 
+    ```bash
+    vim filename/filepath
+    ```
+
+    ![alt text](all_image/linux_image/lx_image9.png)
+
+    - 当我们执行了上述命令时，系统就是使用vim打开这个文件
+
+    ![alt text](all_image/linux_image/lx_image10.png)
+    
+    - 此时由于这个文件里面什么都没有，这里就是空白的。
+  
+- 2：编辑文件
+    - 在进行文件的编辑之前，我们先要知道vim的三种模式。
+    - *普通模式
+    - *插入模式
+    - *命令行模式
+    - 我们当打开的文件的界面，就是普通模式。在这个模式下，我们是无法进行数据的插入的。
+    - 要想进行数据的写入，必须切换成插入模式。
+    - 要切换插入模式其实非常简单，只需要按键盘上的 i 键就好了。
+  
+    ![alt text](all_image/linux_image/lx_image11.png)
+
+    - 可以看出当我们按了i键之后，下面就变为install。此时就是插入模式，我们就可以进行数据的写入了
+
+    ![alt text](all_image/linux_image/lx_image12.png)
+
+    - 此时当我们把数据写入之后，该保存退出了。
+    - 想要保存退出，就需要进入到命令行模式。
+    - 进入命令行模式其实也很简单，只需要按键盘上的esc键进行普通模式。然后再输入"："(冒号)
+  
+    ![alt text](all_image/linux_image/lx_image13.png)
+    - 现在就进入到命令行模式了。
+    - 然后我们在输入wq。wq也就是写入退出的意思。然后这个文件就成功的写入，并保存了。
+    - 然后此时我们在进行查看这个文件的内容：
+    ![alt text](all_image/linux_image/lx_image13.png)
+
 
 ### 2.4 Linux远程登录链接
 #### SSH登录
@@ -667,8 +714,10 @@ curl -O https://www.binbin.net/wiki/文件:Test-1111.png
 ![alt text](all_image/linux_image/lx_image8.png)
 
 
-
-
+附下载链接：
+[putty](https://www.waveshare.net/w/upload/5/56/Putty.zip)
+[mobaxterm](https://www.waveshare.net/w/upload/c/c3/MobaXterm_Portable_v22.0.zip)
+[VNC-viewer](https://www.waveshare.net/w/upload/4/4e/VNC-Viewer-6.21.1109-Windows.zip)
 
 ### 2.5致谢
 本文参考了部分微雪电子的教案,chatgpt的帮助
