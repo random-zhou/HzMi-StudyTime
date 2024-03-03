@@ -104,8 +104,8 @@
 - 由于早期并没有鼠标，所以Linux终端完全是由键盘和显示器完成工作的，这个做法一直沿用至今。可以使用键盘的Ctrl+Alt+t打开树莓派终端。
     - 以树莓派中linux系统终端为例 
     
-    ![alt text](all_image\linux_image\lx_image2.png)
-    
+    ![alt text](all_image/liux_image/lx_image2.png)
+
 - pi 当前用户名/登录名
 - raspberrypi 主机名
 - ~ 当前用户所在的目录是/home/pi
@@ -656,15 +656,15 @@ curl -O https://www.binbin.net/wiki/文件:Test-1111.png
 
 ### 2.4 Linux远程登录链接
 #### SSH登录
-![alt text](all_image\linux_image\lx_image3.png)
+![alt text](all_image/linux_image/lx_image3.png)
 #### PUTTY登录
-![alt text](all_image\linux_image\lx_image4.png)
-![alt text](all_image\linux_image\lx_image5.png)
+![alt text](all_image/linux_image/lx_image4.png)
+![alt text](all_image/linux_image/lx_image5.png)
 #### VNC登录
-![alt text](all_image\linux_image\lx_image6.png)
+![alt text](all_image/linux_image/lx_image6.png)
 #### MobaXterm登录
-![alt text](all_image\linux_image\lx_image7.png)
-![alt text](all_image\linux_image\lx_image8.png)
+![alt text](all_image/linux_image/lx_image7.png)
+![alt text](all_image/linux_image/lx_image8.png)
 
 
 
