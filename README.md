@@ -46,8 +46,8 @@
 |                  |                               |
 |TC26x              |[Infineon-TC260/TC264/TC265/TC267](MCU-related/Infineon-TC26xBC-DS-v01_00-EN数据手册.pdf)                               |
 |                  |                               |
-|                  |                               |
-|                  |                               |
+|RK3568                  |                               |
+|RK3588                  |                               |
 |wch32                  |                               |
 |                  |                               |
 |stc32                  |                               |
