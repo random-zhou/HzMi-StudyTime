@@ -103,7 +103,9 @@
 
 - 由于早期并没有鼠标，所以Linux终端完全是由键盘和显示器完成工作的，这个做法一直沿用至今。可以使用键盘的Ctrl+Alt+t打开树莓派终端。
     - 以树莓派中linux系统终端为例 
+    
     ![alt text](all_image\linux_image\lx_image2.png)
+    
 - pi 当前用户名/登录名
 - raspberrypi 主机名
 - ~ 当前用户所在的目录是/home/pi
