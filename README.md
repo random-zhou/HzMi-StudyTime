@@ -55,7 +55,7 @@
 |                  |                               |
 
 
-### control_related_algorithm
+### system_control_related_algorithm  系统控制及通讯算法
 
 |control_algorithm                      |related information                                   |code_example(C or CPP)                                                           |
 |---------------------------------------|------------------------------------------------------|---------------------------------------------------------------------------------|
@@ -65,8 +65,8 @@
 |Kalman_filter(卡尔曼滤波)               |                                          |[Kalman_filter_c_best]，[Kalman_filter_h_best];[kalman_filter1_c](usual_control_algorithm/Kalman.c),[kalman_filter1_h](usual_control_algorithm/Kalman.h);[kalman_filter2_c],[kalman_filter1_h]； |
 |Quaternion(四元素陀螺仪解算)            |                                                      |[Quaternion_c_best]，[Quaternion_h_best];[Quaternion1_c](usual_control_algorithm/Quaternion1.c),[Quaternion1_h](usual_control_algorith/Quaternion1.h);[Quaternion2_c],[Quaternion2_h]；|
 |losspass_filter(低通滤波)               |                                                      |[lowpass_filter_c_best],[lowpass_filter_h_best];[lowpass_filter1_c](usual_control_algorithm/lowpass_filter1.c),[lowpass_filter1_h](usual_control_algorithm/lowpass_filter1.h);[lowpass_filter2_c],[lowpass_filter2_h]                                                     |
-|                                       |                                                      |                                                                       |
-|                                       |                                                      |                                                                       |
+|I2C                                    |                                                      |[I2C_hal_c](usual_control_algorith/i2c_hal.c)[I2C_hal_h](usual_control_algorithm/i2c_hal.h)                                                  |
+|CAN                                    |                                                      |                                                                       |
 |                                       |                                                      |                                                                       |
 
 
