@@ -2,7 +2,7 @@
  * @Author: “random-zhou” 2501601106@qq.com
  * @Date: 2024-03-01 15:52:15
  * @LastEditors: “random-zhou” 2501601106@qq.com
- * @LastEditTime: 2024-03-06 17:42:42
+ * @LastEditTime: 2024-03-06 17:52:00
  * @FilePath: \HzMi-StudyTime\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -21,11 +21,11 @@
 |Python              |[Python](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Python%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                                             |                                                                       
 |C                   |[C](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                                     |                                                                       
 |C++                 |[C++](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/C%2B%2B%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                             |                                                                       
-|Miniconda           |[Miniconda](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/miniconda%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                                                                                                                                                        |                                                                       
-|Server-connection(服务器连接教程)|[Server-connection]                                                                                                                          |                                                                       
-|WSL2(教程)                |[WSL2]                                                                                                                                                                                                     |         
-|Chatgpt             |[Chatgpt]                                                                                                                                                                                                     |    
-|netron(神经网络可视化工具)         |[netron]                                                                                                                                                                                                     |    
+|Miniconda           |[Miniconda](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/miniconda%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                                       |                                                                       
+|Server服务器教程     |[Server-connection](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Server%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B.md)                                                         |                                                                       
+|WSL2(教程)           |[WSL2]                                                                                                                                                                                               |         
+|Chatgpt             |[Chatgpt]                                                                                                                                                                                            |    
+|netron(神经网络可视化工具)         |[netron]                                                                                                                                                                                |    
 |                    |                                                                                                                                                                                                     |    
 |                    |                                                                                                                                                                                                     |    
 |                    |                                                                                                                                                                                                     |    
