@@ -1,3 +1,11 @@
+<!--
+ * @Author: “random-zhou” 2501601106@qq.com
+ * @Date: 2024-03-01 15:52:15
+ * @LastEditors: “random-zhou” 2501601106@qq.com
+ * @LastEditTime: 2024-03-06 17:28:08
+ * @FilePath: \HzMi-StudyTime\README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # HzMi-StudyTime
 持续更新中，有用的话请帮我右上角点一个star
 ![alt text](basement/all_image/md_image/md_image1.png)
@@ -32,20 +40,18 @@
 
 
 ### MCU 
+详情点击[]
 |brand_name       |related information            |
 |------------------|-------------------------------| 
-|stm32F1-series              |[STM32F101x8-&-STM32F101xB](MCU-related/STM32F101x8B_DS_CH_V11.pdf);[STM32F101x4-&-STM32F101x6](MCU-related\STM32F101x46_DS_CH_V2.pdf);[STM32F101xC-&-STM32F101xD-&-STM32F101xE](MCU-related/STM32F101xCDE_DS_CH_V5.pdf);                                                              |
-|                            |[STM32F101x8-&-STM32F102xB](MCU-related/STM32F102x8B_DS_CH_V2.pdf);[STM32F102x4-&-STM32F102x6](MCU-related\STM32F102x46_DS_CH_V2.pdf);                                                                                                          |
-|                            |[STM32F101x8-&-STM32F101xB](MCU-related/STM32F103x8B_DS_CH_V10.pdf);[STM32F101x4-&-STM32F101x6](MCU-related\STM32F103x8B_DS_CH_V10.pdf);[STM32F101xC-&-STM32F101xD-&-STM32F101xE](MCU-related\STM32F103xCDE_DS_CH_V5.pdf);                        |
-|stm32F4-series              |[STM32F405xx-&-STM32F407xx](MCU-related/STM32F407xx数据手册_V4（英文版）.pdf);                               |
-|                            |[STM32F427xx-&-STM32F429xx](MCU-related/STM32F427IIT6.pdf)                                                                |
-|stm32F7-series              |                                        |
-|stm32G4-series              |                               |                                                                  
-|stm32H7-series             |                               |
-|cw32                  |                               |
-|                  |                               |
-|TC26x              |[Infineon-TC260/TC264/TC265/TC267](MCU-related/Infineon-TC26xBC-DS-v01_00-EN数据手册.pdf)                               |
-|                  |                               |
+|stm32F1-series              |                     |
+|stm32F2-series              |                     |
+|stm32F3-series              |                     |
+|stm32F4-series              |                     |
+|stm32F7-series              |                     |
+|stm32H5-series              |                     |                                                                  
+|stm32H7-series              |                     |
+|stm32G4-series              |                     |
+|TC26x                       |                     |
 |RK3568                  |                               |
 |RK3588                  |                               |
 |wch32                  |                               |
