@@ -2,7 +2,7 @@
  * @Author: “random-zhou” 2501601106@qq.com
  * @Date: 2024-03-01 15:52:15
  * @LastEditors: “random-zhou” 2501601106@qq.com
- * @LastEditTime: 2024-03-06 17:52:00
+ * @LastEditTime: 2024-04-14 23:21:13
  * @FilePath: \HzMi-StudyTime\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -63,7 +63,7 @@
 |                  |                               |
 
 
-### system_control_related_algorithm  系统控制及通讯算法
+### system_control_related_algorithm  系统控制&&通讯算法(stm32)
 
 |control_algorithm                      |related information                                   |code_example(C or CPP)                                                           |
 |---------------------------------------|------------------------------------------------------|---------------------------------------------------------------------------------|
@@ -76,9 +76,20 @@
 |I2C                                    |                                                      |[I2C_hal_c](usual_control_algorith/i2c_hal.c)[I2C_hal_h](usual_control_algorithm/i2c_hal.h)                                                  |
 |CAN                                    |                                                      |                                                                       |
 |                                       |                                                      |                                                                       |
+|                                       |                                                      |                                                                       |
+|                                       |                                                      |                                                                       |
+|                                       |                                                      |                                                                       |
+|                                       |                                                      |                                                                       |
 
 
-
+### 常用电机控制算法（仅仅提供参考，仅供入门）  
+|步进电机(tb6600驱动)                  |                                                       |                                                                       |
+|直流减速电机(tb6612驱动)               |                                                       |                                                                       |
+|大疆M2006&&M3508(C610&C620-CAN)         |                                                      |                                                                       |
+|大疆M6020(C630-CAN)                     |                                                      |                                                                       |
+|                                       |                                                      |                                                                       |
+|                                       |                                                      |                                                                       |
+|                                       |                                                      |                                                                       |
 
 
 
