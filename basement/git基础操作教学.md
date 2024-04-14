@@ -289,7 +289,7 @@
 #### 3.2.1 邀请协作者
 
 -   按照如图所示操作, 可对仓库成员添加, 这样该成员就有对仓库的对应权限了
-![alt text](all_image\git_image\image8.png)
+![alt text](all_image/git_image/image8.png)
 
 
 #### 3.2.2 克隆远程仓库到本地
@@ -376,4 +376,4 @@
     -   https://detail.tmall.com/item.htm?abbucket=11&id=549123908094&ns=1&spm=a21n57.1.0.0.7967523cr3SQ59
 
 ## 6 致谢
-本教程参考了中科大大佬的git教程，感谢大佬的无私开源。
+本教程参考了中科大大佬的git教程，感谢大佬的无私开
