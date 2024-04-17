@@ -1,19 +1,3 @@
-<!--
- * @Author: “random-zhou” 2501601106@qq.com
- * @Date: 2024-03-01 15:52:15
- * @LastEditors: “random-zhou” 2501601106@qq.com
- * @LastEditTime: 2024-04-17 23:39:32
- * @FilePath: \HzMi-StudyTime\README.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
-<!--
- * @Author: “random-zhou” 2501601106@qq.com
- * @Date: 2024-03-01 15:52:15
- * @LastEditors: “random-zhou” 2501601106@qq.com
- * @LastEditTime: 2024-04-17 21:53:37
- * @FilePath: \HzMi-StudyTime\README.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 # HzMi-StudyTime
 持续更新中，有用的话请帮我右上角点一个star
 ![alt text](basement/all_image/md_image/md_image1.png)
@@ -107,8 +91,8 @@
 |--------------------------------------|-------------------------------------------------------|-----------------------------------------------------------------------|
 |步进电机(tb6600驱动)                   |                                                       |                                                                       |
 |直流减速电机(tb6612驱动)               |                                                       |                                                                       |
-|大疆M2006&&M3508(C610&C620-CAN)       |[大疆官方M2006代码]()                                   |                                                                       |
-|大疆M6020(C630-CAN)                   |[大疆M6020代码]                                         |                                                                       |
+|大疆M2006&&M3508(C610&C620-CAN)       |                                   |                                                                       |
+|大疆M6020(C630-CAN)                   |                                         |                                                                       |
 |                                      |                                                       |                                                                       |
 |                                      |                                                       |                                                                       |
 |                                      |                                                       |                                                                       |
