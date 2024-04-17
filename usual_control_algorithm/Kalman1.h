@@ -2,7 +2,7 @@
 #define _KALMAN_H_
 
 #include "IFXPORT.h"
-#include "zf_common_typedef.h"
+#include "struct_typedef.h"
 
 //过程噪声协方差,Q增大，动态响应变快，收敛稳定性变坏
 //测量噪声协方差,R增大，动态响应变慢，收敛稳定性变好

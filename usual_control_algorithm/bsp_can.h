@@ -1,10 +1,8 @@
 #ifndef BSP_CAN_H
 #define BSP_CAN_H
+#include "struct_typedef.h"
 
-#include "main.h"
-#include "can.h"
 
-extern HAL_StatusTypeDef Can_Filter_Init(void);
+extern void can_filter_init(void);
 
 #endif
-

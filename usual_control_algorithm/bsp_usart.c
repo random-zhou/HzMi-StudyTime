@@ -1,9 +1,3 @@
-/*
- * bsp_usart.c
- *
- *  Created on: 2021Äê10ÔÂ24ÈÕ
- *      Author: LBQ
- */
 #include "bsp_usart.h"
 
 extern UART_HandleTypeDef huart3;

@@ -1,9 +1,3 @@
-/*
- * kalman.c
- *
- *  Created on: 2021年10月24日
- *      Author: LBQ
- */
 #include "kalman.h"
 
 /*****************  一阶卡尔曼  *****************/

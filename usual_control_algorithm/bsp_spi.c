@@ -1,9 +1,3 @@
-/*
- * bsp_spi.c
- *
- *  Created on: 2021Äê10ÔÂ24ÈÕ
- *      Author: LBQ
- */
 #include "bsp_spi.h"
 
 extern SPI_HandleTypeDef hspi1;

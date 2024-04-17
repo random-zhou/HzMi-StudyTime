@@ -1,9 +1,3 @@
-/*
- * struct_typedef.h
- *
- *  Created on: 2021Äê10ÔÂ24ÈÕ
- *      Author: LBQ
- */
 #ifndef STRUCT_TYPEDEF_H
 #define STRUCT_TYPEDEF_H
 

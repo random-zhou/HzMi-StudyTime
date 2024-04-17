@@ -1,9 +1,3 @@
-/*
- * bsp_usart.h
- *
- *  Created on: 2021Äê10ÔÂ24ÈÕ
- *      Author: LBQ
- */
 #ifndef BSP_USART_H
 #define BSP_USART_H
 
