@@ -1,9 +1,3 @@
-/*
- * bsp_oled.h
- *
- *  Created on: 2021Äê10ÔÂ24ÈÕ
- *      Author: LBQ
- */
 #ifndef BSP_OLED_H
 #define BSP_OLED_H
 

@@ -1,9 +1,3 @@
-/*
- * bsp_oled.c
- *
- *  Created on: 2021Äê10ÔÂ24ÈÕ
- *      Author: LBQ
- */
 #include "bsp_oled.h"
 #include "oledfont.h"
 
