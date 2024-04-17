@@ -2,7 +2,7 @@
  * @Author: “random-zhou” 2501601106@qq.com
  * @Date: 2024-03-01 15:52:15
  * @LastEditors: “random-zhou” 2501601106@qq.com
- * @LastEditTime: 2024-04-14 23:21:13
+ * @LastEditTime: 2024-04-17 19:25:12
  * @FilePath: \HzMi-StudyTime\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -43,24 +43,22 @@
 - 详情点击[这里](https://github.com/random-zhou/HzMi-StudyTime/blob/main/MCU-related.md)
 - 以下列出已有系列
 
-|brand_name       |related information            |
-|------------------|-------------------------------| 
-|stm32F1-series              |                     |
-|stm32F2-series              |                     |
-|stm32F3-series              |                     |
-|stm32F4-series              |                     |
-|stm32F7-series              |                     |
-|stm32H5-series              |                     |                                                                  
-|stm32H7-series              |                     |
-|stm32G4-series              |                     |
-|TC26x                       |                     |
-|RK3568                  |                               |
-|RK3588                  |                               |
-|wch32                  |                               |
-|                  |                               |
-|stc32                  |                               |
-|                  |                               |
-|                  |                               |
+|brand_name        |                              |               |
+|------------------|------------------------------|---------------|
+|STM意法半导体      |                              |               |
+|stm32F1-series    | stm32F2-series               |stm32F3-series |
+|stm32F4-series    |stm32F7-series                |stm32H7-series |
+|stm32G4-series    |                              |               |
+|                  |                              |               |
+|RK瑞芯微           |                              |               |
+|RK3566            |RK3568                        |RK3588         |
+|                  |                              |               |
+|INFINEON英飞凌     |                              |               |
+|TC26x             |                              |               |
+|                  |                              |               |
+|WCH沁恒           |                              |               |                                                   
+|                  |                              |               |
+|                  |                              |               |          
 
 
 ### system_control_related_algorithm  系统控制&&通讯算法(stm32)
