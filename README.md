@@ -2,7 +2,15 @@
  * @Author: “random-zhou” 2501601106@qq.com
  * @Date: 2024-03-01 15:52:15
  * @LastEditors: “random-zhou” 2501601106@qq.com
- * @LastEditTime: 2024-04-17 21:01:08
+ * @LastEditTime: 2024-04-17 23:39:32
+ * @FilePath: \HzMi-StudyTime\README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!--
+ * @Author: “random-zhou” 2501601106@qq.com
+ * @Date: 2024-03-01 15:52:15
+ * @LastEditors: “random-zhou” 2501601106@qq.com
+ * @LastEditTime: 2024-04-17 21:53:37
  * @FilePath: \HzMi-StudyTime\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -63,30 +71,38 @@
 
 ### system_control_related_algorithm  系统控制&&通讯算法(stm32)
 
-|control_algorithm                      |related information                                   |code_example(C or CPP)                                                           |
-|---------------------------------------|------------------------------------------------------|---------------------------------------------------------------------------------|
-|PID                                    |                                                      |[PID_c_best],[PID_h_best];[PID1_c](usual_control_algorithm/PID1.c),[PID1_h](usual_control_algorithm/PID1.h);[PID2_c],[PID2_h]；                                                     |
-|MPC                                    |                                                      |[MPC_c_best],[MPC_h_best];[MPC1_c],[MPC1_h];[MPC2_c],[MPC2_h]；                                                                      |
-|LQR                                    |                                                      |[LQR_c_best]，[LQR_h_best];[LQR1_c],[LQR1_h];[LQR2_c],[LQR2_h]；                                                                       |
-|Kalman_filter(卡尔曼滤波)               |                                          |[Kalman_filter_c_best]，[Kalman_filter_h_best];[kalman_filter1_c](usual_control_algorithm/Kalman.c),[kalman_filter1_h](usual_control_algorithm/Kalman.h);[kalman_filter2_c],[kalman_filter1_h]； |
-|Quaternion(四元素陀螺仪解算)            |                                                      |[Quaternion_c_best]，[Quaternion_h_best];[Quaternion1_c](usual_control_algorithm/Quaternion1.c),[Quaternion1_h](usual_control_algorith/Quaternion1.h);[Quaternion2_c],[Quaternion2_h]；|
-|losspass_filter(低通滤波)               |                                                      |[lowpass_filter_c_best],[lowpass_filter_h_best];[lowpass_filter1_c](usual_control_algorithm/lowpass_filter1.c),[lowpass_filter1_h](usual_control_algorithm/lowpass_filter1.h);[lowpass_filter2_c],[lowpass_filter2_h]                                                     |
-|I2C                                    |                                                      |[I2C_hal_c](usual_control_algorith/i2c_hal.c)[I2C_hal_h](usual_control_algorithm/i2c_hal.h)                                                  |
-|CAN                                    |                                                      |                                                                       |
-|                                       |                                                      |                                                                       |
-|                                       |                                                      |                                                                       |
-|                                       |                                                      |                                                                       |
-|                                       |                                                      |                                                                       |
-|                                       |                                                      |                                                                       |
-
+|control_algorithm               |Code.c                                                         |Code.h                                                                           |
+|--------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------|
+|PID                             |[PID1.c](usual_control_algorithm/PID1.c)                       |[PID1.h](usual_control_algorithm/PID1.h)                                         |
+|                                |[PID2.c](usual_control_algorithm/PID2.c)                       |[PID2.h](usual_control_algorithm/PID2.h)                                         |
+|                                |                                                               |                                                                                 |
+|MPC                             |[MPC1.c]                                                       |[MPC1.h];                                                                        |
+|                                |                                                               |                                                                                 |
+|LQR                             |[LQR1.c]                                                       |[LQR1.h];                                                                        |
+|                                |                                                               |                                                                                 |
+|Kalman_filter(卡尔曼滤波)        |[kalman_filter1.c](usual_control_algorithm/Kalman1.c)          |[kalman_filter1.h](usual_control_algorithm/Kalman1.h)                            |
+|                                |[kalman_filter2.c](usual_control_algorithm/kalman2.c)          |[kalman_filter1.h](usual_control_algorithm/Kalman2.h)                            |
+|                                |                                                               |                                                                                 |
+|Quaternion(四元素陀螺仪解算)      |[Quaternion1.c](usual_control_algorithm/Quaternion1.c)         |[Quaternion1.h](usual_control_algorith/Quaternion1.h)                            |
+|                                |                                                               |                                                                                 |
+|losspass_filter(低通滤波)        |[lowpass_filter1.c](usual_control_algorithm/lowpass_filter1.c) |[lowpass_filter1.h](usual_control_algorithm/lowpass_filter1.h)                   |
+|                                |                                                               |                                                                                 |
+|I2C                             |[I2C_hal.c](usual_control_algorith/i2c_hal.c)                  |[I2C_hal.h](usual_control_algorithm/i2c_hal.h)                                   |
+|                                |                                                               |                                                                                 |
+|CAN                             |[CAN_hal.c](usual_control_algorith/bsp_can.c)                  |[CAN_hal.h](usual_control_algorithm/bsp_can.h)                                   |
+|                                |                                                               |                                                                                 |
+|SPI                             |[SPI_hal.c](usual_control_algorith/bsp_spi.c)                  |[SPI_hal.h](usual_control_algorith/bsp_spi.h)                                    |
+|                                |                                                               |                                                                                 |
+|USART                           |[Usart_hal.c](usual_control_algorith/bsp_usart.c)              |[Usart_hal.h](usual_control_algorith/bsp_usart.h)                                |
+|                                |                                                      |                                                                       |
 
 ### 常用电机控制算法（仅仅提供参考，仅供入门）  
 |电机                                 |                                                控制代码|                                                               介绍文档|
 |--------------------------------------|-------------------------------------------------------|-----------------------------------------------------------------------|
 |步进电机(tb6600驱动)                   |                                                       |                                                                       |
 |直流减速电机(tb6612驱动)               |                                                       |                                                                       |
-|大疆M2006&&M3508(C610&C620-CAN)       |[大疆官方M2006代码]()                                           |                                                                       |
-|大疆M6020(C630-CAN)                   |[大疆M6020代码]                                           |                                                                       |
+|大疆M2006&&M3508(C610&C620-CAN)       |[大疆官方M2006代码]()                                   |                                                                       |
+|大疆M6020(C630-CAN)                   |[大疆M6020代码]                                         |                                                                       |
 |                                      |                                                       |                                                                       |
 |                                      |                                                       |                                                                       |
 |                                      |                                                       |                                                                       |
