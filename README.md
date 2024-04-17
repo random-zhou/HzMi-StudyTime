@@ -2,7 +2,7 @@
  * @Author: “random-zhou” 2501601106@qq.com
  * @Date: 2024-03-01 15:52:15
  * @LastEditors: “random-zhou” 2501601106@qq.com
- * @LastEditTime: 2024-04-17 19:25:12
+ * @LastEditTime: 2024-04-17 21:01:08
  * @FilePath: \HzMi-StudyTime\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -14,7 +14,7 @@
 ### Basement
 |basement            |related information                                                                                                                                                                                  |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|vscode              |[vscode]()                                                                                                                                                                                           |
+|vscode              |[vscode](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Vscode%E5%AE%89%E8%A3%85%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                                                                                                                                                           |
 |Linux               |[Linux](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Linux%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%95%99%E5%AD%A6.md)                                                             |                                                                       
 |Git                 |[Git](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%95%99%E5%AD%A6.md)                                                                 |                                                                       
 |Markdown            |[Markdown](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/markdown%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%95%99%E5%AD%A6.md)                                                       |                                                                     
