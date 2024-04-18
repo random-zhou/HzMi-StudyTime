@@ -1,5 +1,21 @@
-#ifndef __SYSTEM_H__
-#define __SYSTEM_H__
+/**
+  ****************************(C) COPYRIGHT 2024 HzMI****************************
+  * @file       HAL_Delay_us.c/h
+  * @brief      
+  * @note       
+  * @history
+  *  Version    Date            Author          Modification
+  *  V1.0.0     Apr-18-2024      Rz              1. done
+  *
+  @verbatim
+  ==============================================================================
+
+  ==============================================================================
+  @endverbatim
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  */
+#ifndef __HAL_DELAY_US_H__
+#define __HAL_DELAY_US_H__
 #include "main.h"
 #include "stm32f4xx.h"
 #include "gpio.h"

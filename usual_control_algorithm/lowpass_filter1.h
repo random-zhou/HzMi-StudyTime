@@ -1,3 +1,19 @@
+/**
+  ****************************(C) COPYRIGHT 2024 HzMI****************************
+  * @file       lowpass_filters.c/h
+  * @brief      
+  * @note       
+  * @history
+  *  Version    Date            Author          Modification
+  *  V1.0.0     Apr-18-2024      Rz              1. done
+  *
+  @verbatim
+  ==============================================================================
+
+  ==============================================================================
+  @endverbatim
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  */
 #ifndef LOWPASS_FILTER_H
 #define LOWPASS_FILTER_H
 #include "zf_common_headfile.h"

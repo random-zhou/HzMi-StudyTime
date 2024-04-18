@@ -1,7 +1,28 @@
-#include "STEPPERMOTOR.h"
-#include "SYSTEM.h"
-#include "LED.h"
+/**
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  * @file       stepmotor.c/h
+  * @brief      步进电机驱动方法
+  * @note       
+  * @history
+  *  Version    Date            Author          Modification
+  *  V1.0.0     Apr-18-2024     HZMI              1. done
+  *
+  @verbatim
+  ==============================================================================
 
+  ==============================================================================
+  @endverbatim
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  */
+#include "STEPPERMOTOR.h"
+// #include "SYSTEM.h"//delayus的函数在里面
+// #include "LED.h"
+/*使用方法：
+1.电机初始化 STEPPER_Init
+2、电机参数初始化 STEPPER_ParaInit
+3.电机参数设置 STEPPER_ParaSet
+4.电机驱动 STEPPER_MOVE(&stepper)
+*/
 
 #define HIGH GPIO_PIN_SET //高电平
 #define LOW GPIO_PIN_RESET//低电平
@@ -18,7 +39,7 @@
 
 
 
-void STEPPER_Init(void)
+void STEPPER_Init(void)//电机初始化引脚口
 {
 		GPIO_InitTypeDef GPIO_InitStruct = {0};
 		__HAL_RCC_GPIOC_CLK_ENABLE();
@@ -35,7 +56,7 @@ void STEPPER_Init(void)
 
 
 
-void STEPPER_ParaSet(STEPMotor *stepper,Dir direction,float stepangle,int setturns,int tim,double subdivide)
+void STEPPER_ParaSet(STEPMotor *stepper,Dir direction,float stepangle,int setturns,int tim,double subdivide)//电机参数设置
 {
 		stepper->direction=direction;
 		stepper->stepangle=stepangle;
@@ -45,7 +66,7 @@ void STEPPER_ParaSet(STEPMotor *stepper,Dir direction,float stepangle,int settur
 		
 }
 
-void STEPPER_ParaInit(STEPMotor *stepper)
+void STEPPER_ParaInit(STEPMotor *stepper)//电机参数初始化
 {
 		stepper->direction=(Dir)0;
 		stepper->state=(State)0;
@@ -58,7 +79,7 @@ void STEPPER_ParaInit(STEPMotor *stepper)
 		
 }
 
-void STEPPER_MOVE(STEPMotor *stepper)
+void STEPPER_MOVE(STEPMotor *stepper)//电机驱动函数
 {
 		uint32_t real_turns;
 		if (stepper->direction==0)
@@ -106,17 +127,17 @@ void STEPPER_MOVE(STEPMotor *stepper)
 }
 
 
-float STEPPER_GetAngleFeedBack(STEPMotor *stepper)
+float STEPPER_GetAngleFeedBack(STEPMotor *stepper)//电机反馈实时角度
 {
 			return stepper->realangle;
 }
 
-uint16_t STEPPER_GetTurnsFeedBack(STEPMotor *stepper)
+uint16_t STEPPER_GetTurnsFeedBack(STEPMotor *stepper)//电机反馈实时圈数
 {
 			return stepper->realturns;
 }
 
-State STEPPER_GetStateFeedBack(STEPMotor *stepper)
+State STEPPER_GetStateFeedBack(STEPMotor *stepper)//电机反馈运行状态
 {
 			return stepper->state;
 }

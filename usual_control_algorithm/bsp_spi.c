@@ -1,3 +1,19 @@
+/**
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  * @file       bsp_spi.c/h
+  * @brief      
+  * @note       
+  * @history
+  *  Version    Date            Author          Modification
+  *  V1.0.0     Apr-18-2024     HZMI Rz             1. done
+  *
+  @verbatim
+  ==============================================================================
+
+  ==============================================================================
+  @endverbatim
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  */
 #include "bsp_spi.h"
 
 extern SPI_HandleTypeDef hspi1;

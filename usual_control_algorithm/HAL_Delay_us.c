@@ -1,4 +1,20 @@
-#include "SYSTEM.h"
+/**
+  ****************************(C) COPYRIGHT 2024 HzMI****************************
+  * @file       HAL_Delay_us.c/h
+  * @brief      
+  * @note       
+  * @history
+  *  Version    Date            Author          Modification
+  *  V1.0.0     Apr-18-2024      Rz              1. done
+  *
+  @verbatim
+  ==============================================================================
+
+  ==============================================================================
+  @endverbatim
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  */
+#include "HAL_Delay_us.h"
 
 uint32_t fac_us;
 

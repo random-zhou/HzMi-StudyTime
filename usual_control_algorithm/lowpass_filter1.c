@@ -1,3 +1,19 @@
+/**
+  ****************************(C) COPYRIGHT 2024 HzMI****************************
+  * @file       lowpass_filters.c/h
+  * @brief      
+  * @note       
+  * @history
+  *  Version    Date            Author          Modification
+  *  V1.0.0     Apr-18-2024      Rz              1. done
+  *
+  @verbatim
+  ==============================================================================
+
+  ==============================================================================
+  @endverbatim
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  */
 //    gyro_lpf = lpf_operator(&lpf_current_gyro,imu660ra_gyro_x,0.001);
 #include "lowpass_filter.h"
 

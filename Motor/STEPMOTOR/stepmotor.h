@@ -1,11 +1,19 @@
-/*
- * @Author: “random-zhou” 2501601106@qq.com
- * @Date: 2024-04-18 20:27:30
- * @LastEditors: “random-zhou” 2501601106@qq.com
- * @LastEditTime: 2024-04-18 20:27:59
- * @FilePath: \HzMi-StudyTime\Motor\STEPMOTOR\stepmotor.h
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
+/**
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  * @file       stepmotor.c/h
+  * @brief      步进电机驱动方法
+  * @note       
+  * @history
+  *  Version    Date            Author          Modification
+  *  V1.0.0     Apr-18-2024     HZMI              1. done
+  *
+  @verbatim
+  ==============================================================================
+
+  ==============================================================================
+  @endverbatim
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  */
 #ifndef __STEPPERMOTOR_H__
 #define __STEPPERMOTOR_H__
 
