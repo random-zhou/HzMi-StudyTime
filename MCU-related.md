@@ -1,3 +1,11 @@
+<!--
+ * @Author: “random-zhou” 2501601106@qq.com
+ * @Date: 2024-03-06 13:35:23
+ * @LastEditors: “random-zhou” 2501601106@qq.com
+ * @LastEditTime: 2024-04-19 14:53:48
+ * @FilePath: \HzMi-StudyTime\MCU-related.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
                                                                   HZMI-赫兹矩阵创新实验室
 ### MCU 
 |brand_name       |related information            |
@@ -71,8 +79,13 @@
 |                            |                                                                                                                                                                                                                                                  |
 |TC26x                       |[Infineon-TC260/TC264/TC265/TC267](MCU-related/Infineon-TC26xBC-DS-v01_00-EN数据手册.pdf)                               |
 |                  |                               |
-|RK3568                  |                               |
-|RK3588                  |                               |
+|                  |                               |
+|RK3566                 |[Rockchip-RK3566](MCU-related/Rockchip-RK3566_V1.1.pdf)                               |
+|RK3568                  |[Rockchip-RK3568](MCU-related/Rockchip-RK3568_V1.2.pdf)                               |
+|                       |[Rockchip-RK3568J](MCU-related/Rockchip-RK3568J_V1.0.pdf)                               |
+|RK3588                  |[Rockchip-RK3588J](MCU-related/Rockchip-RK3588.pdf)                               |
+|                  |                               |
+|                  |                               |
 |wch32                  |                               |
 |                  |                               |
 |stc32                  |                               |
