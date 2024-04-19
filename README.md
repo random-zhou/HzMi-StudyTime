@@ -53,16 +53,28 @@
 |                  |                              |               |          
 
 
-### system_control_related_algorithm  系统控制&&通讯算法(stm32)
-
-|control_algorithm               |Code.c                                                         |Code.h                                                                           |
+### system_control_related_algorithm  系统控制&&通讯&&调试&&模块算法(stm32)
+#### 常用开发自定义库
+|develop_algorithm               |Code.c                                                         |Code.h                                                                           |
 |--------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------|
 |Struct_typedef(常用数据定义)     |                                                               |[struct_typedef.h](usual_control_algorithm/struct_typedef.h)                     |
 |user_lib(常用运算函数)           |                                                               |[user_lib.h](usual_control_algorithm/user_lib.h)                                 |
-|HAL_Delay_us(适用所有板子)       |[HAL_Delay_us.c](usual_control_algorithm/HAL_Dealy_us.c)       |[HAL_Dealy_us.h](usual_control_algorithm/HAL_Dealy_us.h)                       |
-|OLED(IIC)                       |[OLED(IIC)](usual_control_algorithm/bsp_oled.c)                |[OLED(IIC)](usual_control_algorithm/bsp_oled.h)                                                                                 |
-|OLEDFONT                        |                                                               |[OLEDFONT](usual_control_algorithm/oledfont.h)                                                                                 |
+|HAL_Delay_us(适用所有板子)       |[HAL_Delay_us.c](usual_control_algorithm/HAL_Dealy_us.c)       |[HAL_Dealy_us.h](usual_control_algorithm/HAL_Dealy_us.h)                         |
 |                                |                                                               |                                                                                 |
+|                                |                                                               |                                                                                 |
+#### 常用开发模块库
+|develop_algorithm               |Code.c                                                         |Code.h                                                                           |
+|--------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------|
+|OLED1(IIC)                      |[OLED1.c(IIC)](usual_control_algorithm/bsp_oled.c)             |[OLED1.h(IIC)](usual_control_algorithm/bsp_oled.h)                               |
+|OLEDFONT1                       |                                                               |[OLEDFONT1.h](usual_control_algorithm/oledfont.h)                                |
+|                                |                                                               |                                                                                 |
+|OLED2(IIC)                      |[OLED2.c(IIC)](usual_control_algorithm/OLED.c)                 |[OLED2.h(IIC)](usual_control_algorithm/OLED.h)                                   |
+|OLEDFONT2                       |[OLEDFONT2.c] (usual_control_algorithm/OLED_FONT.c)            |[OLEDFONT2.h](usual_control_algorithm/OLED_FONT.h)                               |
+|                                |                                                               |                                                                                 |
+
+#### 常用控制算法库
+|develop_algorithm               |Code.c                                                         |Code.h                                                                           |
+|--------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------|
 |PID                             |[PID1.c](usual_control_algorithm/PID1.c)                       |[PID1.h](usual_control_algorithm/PID1.h)                                         |
 |                                |[PID2.c](usual_control_algorithm/PID2.c)                       |[PID2.h](usual_control_algorithm/PID2.h)                                         |
 |                                |                                                               |                                                                                 |
@@ -70,26 +82,34 @@
 |                                |                                                               |                                                                                 |
 |LQR                             |[LQR1.c]                                                       |[LQR1.h];                                                                        |
 |                                |                                                               |                                                                                 |
+
+#### 常用滤波算法库
+|develop_algorithm               |Code.c                                                         |Code.h                                                                           |
+|--------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------|
 |Kalman_filter(卡尔曼滤波)        |[kalman_filter1.c](usual_control_algorithm/Kalman1.c)          |[kalman_filter1.h](usual_control_algorithm/Kalman1.h)                            |
 |                                |[kalman_filter2.c](usual_control_algorithm/kalman2.c)          |[kalman_filter2.h](usual_control_algorithm/Kalman2.h)                            |
-|                                |                                                               |                                                                                 |
 |filter(常用滑动&低通滤波)         |[filters](usual_control_algorithm/filters.c)                  |[filters](usual_control_algorithm/filters.h)                                      |
 |                                |                                                               |                                                                                 |
 |Quaternion(四元素陀螺仪解算)      |[Quaternion1.c](usual_control_algorithm/Quaternion1.c)         |[Quaternion1.h](usual_control_algorith/Quaternion1.h)                            |
 |                                |                                                               |                                                                                 |
 |losspass_filter(陀螺仪低通滤波)  |[lowpass_filter1.c](usual_control_algorithm/lowpass_filter1.c) |[lowpass_filter1.h](usual_control_algorithm/lowpass_filter1.h)                   |
 |                                |                                                               |                                                                                 |
-|I2C(软件)                        |[I2C_hal.c](usual_control_algorith/i2c_hal.c)                  |[I2C_hal.h](usual_control_algorithm/i2c_hal.h)                                   |
+
+#### 常用通讯算法库
+|develop_algorithm               |Code.c                                                         |Code.h                                                                           |
+|--------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------|
+|I2C(SoftWare)                   |[I2C_hal.c](usual_control_algorith/i2c_hal.c)                  |[I2C_hal.h](usual_control_algorithm/i2c_hal.h)                                   |
+|I2C(HardWare)                   |[I2C_hal.c](usual_control_algorith/i2c_hal.c)                  |[I2C_hal.h](usual_control_algorithm/i2c_hal.h)                                   |
+|                                |                                                               |                                                                                 |
+|SPI(SoftWare)                   |[SPI_hal.c](usual_control_algorith/bsp_spi.c)                  |[SPI_hal.h](usual_control_algorith/bsp_spi.h)                                    |
+|SPI(HardWare)                   |                                                               |                                                                                 |
 |                                |                                                               |                                                                                 |
 |CAN                             |[CAN.c](usual_control_algorithm/can.c)                         |[CAN.h](usual_control_algorithm/can.h)                                           |
 |BSP_CAN(filter)                 |[CAN_hal.c](usual_control_algorith/bsp_can.c)                  |[CAN_hal.h](usual_control_algorithm/bsp_can.h)                                   |
 |CAN_receive                     |[CAN_receive.c](usual_control_algorithm/CAN_receive.c)         |[CAN_receive.h](usual_control_algorithm/CAN_receive.c)                           |
 |                                |                                                               |                                                                                 |
-|                                |                                                               |                                                                                 |
-|SPI                             |[SPI_hal.c](usual_control_algorith/bsp_spi.c)                  |[SPI_hal.h](usual_control_algorith/bsp_spi.h)                                    |
-|                                |                                                               |                                                                                 |
 |USART+DMA(遥控串口)              |[Usart_DMA_hal.c](usual_control_algorith/bsp_usart.c)          |[Usart_DMA_hal.h](usual_control_algorith/bsp_usart.h)                            |
-|USART_IT(重映射+中断打包接发)     |[USART_IT.c](usual_control_algorithm/usart.c)                  |[USART_IT.h](usual_control_algorithm/usart.h)                                       |
+|USART_IT(重映射+中断打包接发)     |[USART_IT.c](usual_control_algorithm/usart.c)                  |[USART_IT.h](usual_control_algorithm/usart.h)                                    |
 |                                |                                                               |                                                                                 |
 |                                |                                                               |                                                                                 |
 |                                |                                                               |                                                                                 |
@@ -101,7 +121,7 @@
 |电机                                  |Driver                                               |Code.c                                                |Code.h                                                                 |others                                    |
 |--------------------------------------|-----------------------------------------------------|------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------|
 |步进电机                               |tb6600驱动                                           |[stepmotor.c](Motor/STEPMOTOR/stepmotor.c)            |[stepmotor.h](Motor/STEPMOTOR/stepmotor.h)                             |串口翻转                                   |
-|直流减速电机                           |tb6612驱动,L298N,DRV88xx系列                          |[motor.c]                                             |[motor.h]                                                               |                                         |  
+|直流减速电机                           |tb6612驱动,L298N,DRV88xx系列                          |[motor.c]                                             |[motor.h]                                                              |PWM                                         |  
 
 |大疆M2006                             |(C610-CAN) 配置1M频率                                 |                                                      |                                                                        |                                          | 
 |大疆M3508                             |(C620-CAN) 配置1M频率                                 |                                                      |                                                                        |                                          |
