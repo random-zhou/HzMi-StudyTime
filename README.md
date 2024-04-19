@@ -69,7 +69,7 @@
 |OLEDFONT1                       |                                                               |[OLEDFONT1.h](usual_control_algorithm/oledfont.h)                                |
 |                                |                                                               |                                                                                 |
 |OLED2(IIC)                      |[OLED2.c(IIC)](usual_control_algorithm/OLED.c)                 |[OLED2.h(IIC)](usual_control_algorithm/OLED.h)                                   |
-|OLEDFONT2                       |[OLEDFONT2.c](usual_control_algorithm/OLED_FONT.c)            |[OLEDFONT2.h](usual_control_algorithm/OLED_FONT.h)                               |
+|OLEDFONT2                       |[OLEDFONT2.c](usual_control_algorithm/OLED_FONT.c)            |[OLEDFONT2.h](usual_control_algorithm/OLED_FONT.h)                                |
 |                                |                                                               |                                                                                 |
 
 #### 常用控制算法库
