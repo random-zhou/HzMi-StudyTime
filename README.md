@@ -132,7 +132,7 @@
 
 
 ### Computer-Vision
-- 详情点击[这里](https://github.com/random-zhou/MCU-related/blob/main/MCU-related.md)
+- 详情点击[这里](https://github.com/random-zhou/CV_related/blob/main/README.md)
 |model                                                             |Paper                                                                                                                                  |   
 |------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 |YOLO-series                                                       |[YOLOv1];[YOLOv2];[YOLOv3];[YOLOv4];[YOLOv5];                                                                                          |       
