@@ -136,8 +136,7 @@
 
 |model                                                             |Paper                                                                                                                                  |   
 |------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-|YOLO-series                                                       |[YOLOv1];[YOLOv2];[YOLOv3];[YOLOv4];[YOLOv5];                                                                                          |       
-|                                                                  |[YOLOv6];[YOLOv7];[YOLOv8];[YOLOv9];                                                                                                   |       
+|YOLO-series                                                       |[YOLOv1];[YOLOv2];[YOLOv3];[YOLOv4];[YOLOv5];[YOLOv6];[YOLOv7];[YOLOv8];[YOLOv9];                                                      |   
 |Resnet(Deep Residual Learning for Image Recognition)              |[Resnet]                                                                                                                               |                                                                      
 |RDN(Residual Dense Network for Image Super-Resolution)            |[RDN]                                                                                                                                  |
 |ELC(Efficient Layer Compression Without Pruning)                  |[ELC]                                                                                                                                  |
