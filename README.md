@@ -32,7 +32,7 @@
 
 
 ### MCU 
-- 详情点击[这里](https://github.com/random-zhou/HzMi-StudyTime/blob/main/MCU-related.md)
+- 详情点击[这里](https://github.com/random-zhou/MCU-related/blob/main/MCU-related.md)
 - 以下列出已有系列
 
 |brand_name        |                              |               |
