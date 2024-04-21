@@ -132,69 +132,70 @@
 
 
 ### Computer-Vision
-|model                                                             |Paper                                                                                                                                  |                   CODE                                               |
-|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-|YOLO-series                                                       |[YOLOv1](Paper/YOLOv1.pdf);[YOLOv2](Paper/YOLOv2.pdf);[YOLOv3](Paper/YOLOv3.pdf);[YOLOv4](Paper/YOLOv4.pdf);[YOLOv5](Paper/YOLOv5.pdf);|[YOLOv1];[YOLOv2](https://github.com/longcw/yolo2-pytorch);[YOLOv3](https://github.com/ultralytics/yolov3);[YOLOv4](https://github.com/Tianxiaomo/pytorch-YOLOv4);[YOLOv5](https://github.com/ultralytics/yolov5);                |           
-|                                                                  |[YOLOv6];[YOLOv7];[YOLOv8];[YOLOv9];                                                                                                   |[YOLOv6](https://github.com/meituan/YOLOv6);[YOLOv7](https://github.com/WongKinYiu/yolov7);[YOLOv8](https://github.com/ultralytics/ultralytics);[YOLOv9](https://github.com/WongKinYiu/yolov9);[YOLOv5lite](https://github.com/ppogg/YOLOv5-Lite)                                   |
-|Resnet(Deep Residual Learning for Image Recognition)              |[Resnet](Paper/Resnet.pdf);                                                                                                            |[Resnet](https://github.com/ry/tensorflow-resnet);                                                              | 
-|RDN(Residual Dense Network for Image Super-Resolution)            |[RDN](Paper/RDN.pdf);                                                                                                                  |[RDN](https://github.com/yulunzhang/RDN);                                                                 | 
-|ELC(Efficient Layer Compression Without Pruning)                  |[ELC](Paper/Efficient%20Layer%20Compression%20Without%20Pruning.pdf);                                                                  |[ELC];                                                                 | 
-|GhostSR(GhostSR: Learning Ghost Features for Efficient Image Super-Resolution)|[GhostSR](Paper/GhostSR.pdf)                                                                                               |[GhostSR]                                                              | 
-|CNN(Gradient-Based Learning Applied to Document Recognition)      |[CNN](Paper/CNN.pdf)                                                                                                                   |[CNN]                                                                       | 
-|RCNN(Rich feature hierarchies for accurate object detection and semantic segmentation)|[RCNN](Paper/R-CNN.pdf)                                                                                            |[RCNN]                                                                       | 
-|Fast R-CNN                                                        |[Fast_R-CNN](Paper/Fast%20R-CNN.pdf)                                                                                                   |[Fast_R-CNN]                                                           | 
-|Faster R-CNN(Towards Real-Time Object Detection with Region Proposal Networks)|[Faster_R-CNN](Paper/Faster%20R-CNN.pdf)                                                                                   |[Faster_R-CNN]                                                         | 
-|DPM(Object Detection with Discriminatively Trained Part Based Models)|[DPM](Paper/DPM.pdf)                                                                                                                |[DPM]                                                                       | 
-|Mark R-CNN                                                        |[Mark R-CNN](Paper/Mask%20R-CNN.pdf)                                                                                                   |[Mark_R-CNN]                                                        | 
-|Vision Transformer( AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE)|[Vision_Transformer](Paper/VisionTransformer.pdf)                                                         |[Vision_Transformer]                                                | 
-|Unet(Convolutional Networks for Biomedical Image Segmentation)    |[Unet](Paper/U-Net.pdf)                                                                                                                |[Unet]                                                                       | 
-|DETR(End-to-End Object Detection with Transformers)               |[DETR](Paper/DETR.pdf)                                                                                                                 |[DETR]                                                                       | 
-|                                                                  |                                                                                                                                       |                                                                       | 
-|                                                                  |                                                                                                                                       |                                                                       | 
-|                                                                  |                                                                                                                                       |                                                                       | 
-|                                                                  |                                                                                                                                       |                                                                       | 
-|                                                                  |                                                                                                                                       |                                                                       | 
-|                                                                  |                                                                                                                                       |                                                                       | 
-|                                                                  |                                                                                                                                       |                                                                       | 
-|                                                                  |                                                                                                                                       |                                                                       | 
-|                                                                  |                                                                                                                                       |                                                                       | 
+- 详情点击[这里](https://github.com/random-zhou/MCU-related/blob/main/MCU-related.md)
+|model                                                             |Paper                                                                                                                                  |   
+|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+|YOLO-series                                                       |[YOLOv1];[YOLOv2];[YOLOv3];[YOLOv4];[YOLOv5];                                                                                          |       
+|                                                                  |[YOLOv6];[YOLOv7];[YOLOv8];[YOLOv9];                                                                                                   |       
+|Resnet(Deep Residual Learning for Image Recognition)              |[Resnet]                                                                                                                               |                                                                      
+|RDN(Residual Dense Network for Image Super-Resolution)            |[RDN]                                                                                                                                  |
+|ELC(Efficient Layer Compression Without Pruning)                  |[ELC]                                                                                                                                  |
+|GhostSR(GhostSR: Learning Ghost Features for Efficient Image Super-Resolution)|[GhostSR]                                                                                                                  |
+|CNN(Gradient-Based Learning Applied to Document Recognition)      |[CNN]                                                                                                                                  |
+|RCNN(Rich feature hierarchies for accurate object detection and semantic segmentation)|[RCNN]                                                                                                             |
+|Fast R-CNN                                                        |[Fast_R-CNN]                                                                                                                           |
+|Faster R-CNN(Towards Real-Time Object Detection with Region Proposal Networks)|[Faster_R-CNN]                                                                                                             |
+|DPM(Object Detection with Discriminatively Trained Part Based Models)|[DPM]                                                                                                                               |
+|Mark R-CNN                                                        |[Mark R-CNN]                                                                                                                           |
+|Vision Transformer( AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE)|[Vision_Transformer]                                                                                      |
+|Unet(Convolutional Networks for Biomedical Image Segmentation)    |[Unet]                                                                                                                                 | 
+|DETR(End-to-End Object Detection with Transformers)               |[DETR]                                                                                                                                 |
+|                                                                  |                                                                                                                                       |                                                                        
+|                                                                  |                                                                                                                                       |                                                                        
+|                                                                  |                                                                                                                                       |                                                                        
+|                                                                  |                                                                                                                                       |                                                                        
+|                                                                  |                                                                                                                                       |                                                                        
+|                                                                  |                                                                                                                                       |                                                                        
+|                                                                  |                                                                                                                                       |                                                                        
+|                                                                  |                                                                                                                                       |                                                                        
+|                                                                  |                                                                                                                                       |                                                                        
 
 ### Large-Language-Model
-|model               |Paper                                                 |                   CODE                                             |
-|--------------------|------------------------------------------------------|-----------------------------------------------------------------------|
-|Transformer         |[Transformer](Paper/Transfomer.pdf)                   |[Transformer]                                                          |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
-|                    |                                                      |                                                                       |
+|model               |Paper                                                 |
+|--------------------|------------------------------------------------------|
+|Transformer         |[Transformer](Paper/Transfomer.pdf)                   |                                                          
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
+|                    |                                                      |                                                                       
 
 ### 项目推广
 ### API-Studio
