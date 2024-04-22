@@ -1,6 +1,7 @@
 import os  # 导入os模块，用于操作文件和目录  
 import shutil  # 导入shutil模块，用于文件操作如复制  
   
+#文件划分  
 def split(split_num, input_path, output_dir):  # 定义一个名为split的函数，用于划分文件  
     # 参数split_num是划分的子文件夹数量，input_path是输入文件夹路径，output_dir是输出文件夹路径  
   

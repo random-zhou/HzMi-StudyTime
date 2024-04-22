@@ -2,6 +2,7 @@ import os
 import uuid
 import cv2
 
+#随机命名图像
 def Disorderly(img_path,label_path):
     """  
     将指定目录下的图片文件和对应标签文件进行重命名，文件名被替换为随机的UUID。  

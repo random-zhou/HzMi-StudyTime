@@ -1,5 +1,6 @@
 import os
 import shutil
+#文件夹融合脚本
 def integration(input,output):
     # 确保目标文件夹存在，如果不存在则创建  
     os.makedirs(output, exist_ok=True)  
