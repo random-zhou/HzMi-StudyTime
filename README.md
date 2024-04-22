@@ -31,7 +31,7 @@
 
 
 
-### MCU 
+### MCU
 - 详情点击[这里](https://github.com/random-zhou/MCU-related/blob/main/MCU-related.md)
 - 以下列出已有系列
 
@@ -119,12 +119,13 @@
 
 #### 常用优化算法
 |optimization_algorithm         |Code.py                                                         |Code.m                                                                            |Code.cpp                                                                         | 
-|Genetic Algorithm(遗传算法)     |                                                                |                                                                                 |                                                                                |
-|Tabu Search(禁忌搜索)           |                                                                |                                                                                 |                                                                                |
-|Simulate Annealing(模拟退火)    |                                                                |                                                                                 |                                                                                |
-|蚁群算法                        |                                                                |                                                                                 |                                                                                |
-|粒子群算法                      |                                                                |                                                                                 |                                                                                |
-|                               |                                                                |                                                                                 |                                                                                |
+|-------------------------------|----------------------------------------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+|Genetic Algorithm(遗传算法)     |                                                                |                                                                                  |                                                                                 |
+|Tabu Search(禁忌搜索)           |                                                                |                                                                                  |                                                                                 |
+|Simulate Annealing(模拟退火)    |                                                                |                                                                                  |                                                                                 |
+|Ant Colony Algorithm(蚁群算法)  |                                                                |                                                                                  |                                                                                 |
+|Particle Swarm Optimization(粒子群算法)|                                                                |                                                                                  |                                                                                 |
+|                               |                                                                |                                                                                  |                                                                                 |
 
 ### 常用电机控制算法（仅仅提供参考，仅供入门）  
 |电机                                  |Driver                                               |Code.c                                                |Code.h                                                                 |others                                    |
