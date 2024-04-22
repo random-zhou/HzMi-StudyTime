@@ -17,7 +17,7 @@
 |Server服务器教程     |[Server-connection](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Server%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B.md)                                                         |                                                                       
 |WSL2(教程)           |[WSL2]                                                                                                                                                                                              |         
 |Chatgpt             |[Chatgpt]                                                                                                                                                                                            |    
-|netron(神经网络可视化工具)         |[netron]                                                                                                                                                                                |    
+|netron(神经网络可视化工具)   |[netron]                                                                                                                                                                                    |    
 |                    |                                                                                                                                                                                                     |    
 |                    |                                                                                                                                                                                                     |    
 |                    |                                                                                                                                                                                                     |    
@@ -69,7 +69,7 @@
 |OLED1(IIC)                      |[OLED1.c(IIC)](usual_control_algorithm/bsp_oled.c)             |[OLED1.h(IIC)](usual_control_algorithm/bsp_oled.h)                               |
 |OLEDFONT1                       |                                                               |[OLEDFONT1.h](usual_control_algorithm/oledfont.h)                                |
 |                                |                                                               |                                                                                 |
-|OLED2(IIC)-4Pin                      |[OLED2.c(IIC)](usual_control_algorithm/OLED.c)                 |[OLED2.h(IIC)](usual_control_algorithm/OLED.h)                                   |
+|OLED2(IIC)-4Pin                      |[OLED2.c(IIC)](usual_control_algorithm/OLED.c)                 |[OLED2.h(IIC)](usual_control_algorithm/OLED.h)                              |
 |OLEDFONT2                       |[OLEDFONT2.c](usual_control_algorithm/OLED_FONT.c)            |[OLEDFONT2.h](usual_control_algorithm/OLED_FONT.h)                                |
 |                                |                                                               |                                                                                 |
 
@@ -125,7 +125,7 @@
 |Simulate Annealing(模拟退火)    |                                                                |                                                                                  |                                                                                 |
 |Ant Colony Algorithm(蚁群算法)  |                                                                |                                                                                  |                                                                                 |
 |Particle Swarm Optimization(粒子群算法)|                                                                |                                                                                  |                                                                                 |
-|                               |                                                                |                                                                                  |                                                                                 |
+|                                |                                                                |                                                                                  |                                                                                 |
 
 ### 常用电机控制算法（仅仅提供参考，仅供入门）  
 |电机                                  |Driver                                               |Code.c                                                |Code.h                                                                 |others                                    |
