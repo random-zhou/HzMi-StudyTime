@@ -115,7 +115,14 @@
 |                                |                                                               |                                                                                 |
 |                                |                                                               |                                                                                 |
 
-
+#### 常用优化算法
+|optimization_algorithm         |Code.py                                                         |Code.m                                                                            |Code.cpp                                                                         | 
+|Genetic Algorithm(遗传算法)     |                                                                |                                                                                 |                                                                                |
+|Tabu Search(禁忌搜索)           |                                                                |                                                                                 |                                                                                |
+|Simulate Annealing(模拟退火)    |                                                                |                                                                                 |                                                                                |
+|蚁群算法                        |                                                                |                                                                                 |                                                                                |
+|粒子群算法                      |                                                                |                                                                                 |                                                                                |
+|                               |                                                                |                                                                                 |                                                                                |
 
 ### 常用电机控制算法（仅仅提供参考，仅供入门）  
 |电机                                  |Driver                                               |Code.c                                                |Code.h                                                                 |others                                    |
