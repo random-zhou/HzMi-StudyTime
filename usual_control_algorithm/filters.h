@@ -1,69 +1,67 @@
-/**
-  ****************************(C) COPYRIGHT 2024 HzMI****************************
-  * @file       filters.c/h
-  * @brief      
-  * @note       
-  * @history
-  *  Version    Date            Author          Modification
-  *  V1.0.0     Apr-18-2024      Rz              1. done
-  *
-  @verbatim
-  ==============================================================================
+#ifndef __FILTERS_H__
+#define __FILTERS_H__
 
-  ==============================================================================
-  @endverbatim
-  ****************************(C) COPYRIGHT 2024 HZMI****************************
-  */
-#ifndef __FILTERS_BY_RFS_H
-#define __FILTERS_BY_RFS_H
+// #define DEVIATION  10
+// #define FIRST_LAG_PROPORTION 0.4
+typedef unsigned char uint8_t;
+
+float limit_filter(float new_value,int DEVIATION);
+double averageFilter(double *data, int size, int windowSize) ;
+void kalmanFilter(double *measurements, double *estimates, int numMeasurements, double processNoise, double measurementNoise) ;
+void copyArray(double *source, double *destination, int start, int end) ;
+double medianFilter(double *data, int size, int windowSize) ;
+float first_order_lag_filter(float new_value,double FIRST_LAG_PROPORTION);
+float weighted_filter(float new_value,uint8_t *coe,uint8_t sum_coe);
+float shake_filter(float new_value, float now_value,int SHAKE_N);
 
 
 
 
-/*****************************滑动平均值滤波*****************************/
-typedef int Data_Type_Slide_Average_Filter;
-typedef struct 																								//滑动平均值滤波的结构体
-{
-	#define			 												Slide_Average_Filter_Sample_Capacity 						6							
-	Data_Type_Slide_Average_Filter			Sum;																										
-	Data_Type_Slide_Average_Filter			Array[ Slide_Average_Filter_Sample_Capacity ];								
-	Data_Type_Slide_Average_Filter 	 		New_Data;																							
-	Data_Type_Slide_Average_Filter			Result;																										
-	int																	Pointer;										
-}										
-Slide_Average_Filter_Struct,
-*Slide_Average_Filter_Struct_Pointer;
-
-int Slide_Average_Filter ( Slide_Average_Filter_Struct_Pointer Slide_Ave_P );
 
 
-/*****************************低通滤波*****************************/
-typedef float Data_Type_Low_Pass_Filter;
-typedef struct																						//低通滤波结构体
-{
-	double 												K; 												//K越大越相信新数据
-	Data_Type_Low_Pass_Filter			History_Data;
-	Data_Type_Low_Pass_Filter			New_Data;
-	Data_Type_Low_Pass_Filter			Result;
-}
-Low_Pass_Filter_Struct,
-*Low_Pass_Filter_Struct_Pointer;
 
-int Low_Pass_Filter ( Low_Pass_Filter_Struct_Pointer Low_Pass_Filter_Pass_P );
+//例子
+// // 主函数，演示平均值滤波
+// int main() {
+//     double data[] = {1, 2, 3, 2.5, 3.5, 2, 3, 4, 5};
+//     int size = sizeof(data) / sizeof(data[0]);
+//     int windowSize = 3; // 设置窗口大小为3
+//     averageFilter(data, size, windowSize);
+//     printf("Filtered data: \n");
+//     for (int i = 0; i < size; i++) {
+//         printf("%f ", data[i]);
+//     }
+//     printf("\n");
+//     return 0;
+// }
 
-typedef struct
-{
-	float target;
-	float current;
-	float step;
-	float out;
-	float e;
-}
-Ramp_Struct,
-*Ramp_Struct_Pointer;
+// // 主函数，演示卡尔曼滤波
+// int main() {
+//     double measurements[] = {1.0, 2.0, 3.0, 2.5, 3.5, 2.0, 3.0, 4.0, 5.0};
+//     double estimates[1]; // 用于存储最终估计的数组
+//     int numMeasurements = sizeof(measurements) / sizeof(measurements[0]);
+//     double processNoise = 0.1; // 过程噪声
+//     double measurementNoise = 0.2; // 测量噪声
+//     kalmanFilter(measurements, estimates, numMeasurements, processNoise, measurementNoise);
+//     printf("Estimated value: %f\n", estimates[0]);
+//     return 0;
+// }
 
-void Ramp_Func_Init( Ramp_Struct_Pointer Ramp_P, float step, float current );
-void Ramp_Func_Cal( Ramp_Struct_Pointer Ramp_P, float target, float current );
+// // 主函数，演示中位值滤波
+// int main() {
+//     double data[] = {1, 2, 3, 2.5, 3.5, 2, 3, 4, 5};
+//     int size = sizeof(data) / sizeof(data[0]);
+//     int windowSize = 3; // 设置窗口大小为3
+//     medianFilter(data, size, windowSize);
+//     printf("Filtered data: \n");
+//     for (int i = 0; i < size; i++) {
+//         printf("%f ", data[i]);
+//     }
+//     printf("\n");
+//     return 0;
+// }
+
+
+
 
 #endif
-

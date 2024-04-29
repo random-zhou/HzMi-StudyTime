@@ -62,10 +62,12 @@
 |user_lib(常用运算函数)           |                                                               |[user_lib.h](usual_control_algorithm/user_lib.h)                                 |
 |HAL_Delay_us(适用所有板子)       |[HAL_Delay_us.c](usual_control_algorithm/HAL_Dealy_us.c)       |[HAL_Dealy_us.h](usual_control_algorithm/HAL_Dealy_us.h)                         |
 |str_deal(字符串处理算法)         |[str_deal.c](usual_control_algorithm/str_deal.c)               |[str_deal.h](usual_control_algorithm/str_deal.h)                                 |
+|vaildation_deal(校验算法)        |[vaildation_deal.c](usual_control_algorithm/validation_deal.c) |[vaildation.h](usual_control_algorithm/validation_deal.h)                        |
+|filter(常用滤波算法)             |[filters](usual_control_algorithm/filters.c)                  |[filters](usual_control_algorithm/filters.h)                                      |
 |                                |                                                               |                                                                                 |
 |                                |                                                               |                                                                                 |
-|                                |                                                               |                                                                                 |
-|                                |                                                               |                                                                                 |
+
+
 #### 常用开发模块库
 |develop_algorithm               |Code.c                                                         |Code.h                                                                           |
 |--------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------|
@@ -87,14 +89,11 @@
 |LQR                             |[LQR1.c]                                                       |[LQR1.h];                                                                        |
 |                                |                                                               |                                                                                 |
 
-#### 常用滤波算法库
+#### 常用陀螺仪算法库
 |develop_algorithm               |Code.c                                                         |Code.h                                                                           |
 |--------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------|
-|Kalman_filter(卡尔曼滤波)        |[kalman_filter1.c](usual_control_algorithm/Kalman1.c)          |[kalman_filter1.h](usual_control_algorithm/Kalman1.h)                            |
+|Kalman_filter(陀螺仪卡尔曼滤波)        |[kalman_filter1.c](usual_control_algorithm/Kalman1.c)          |[kalman_filter1.h](usual_control_algorithm/Kalman1.h)                      |
 |                                |[kalman_filter2.c](usual_control_algorithm/kalman2.c)          |[kalman_filter2.h](usual_control_algorithm/Kalman2.h)                            |
-|                                |                                                               |                                                                                 |
-|filter(常用滑动&低通滤波)         |[filters](usual_control_algorithm/filters.c)                  |[filters](usual_control_algorithm/filters.h)                                      |
-|                                |                                                               |                                                                                 |
 |Quaternion(四元素陀螺仪解算)      |[Quaternion1.c](usual_control_algorithm/Quaternion1.c)         |[Quaternion1.h](usual_control_algorith/Quaternion1.h)                            |
 |                                |                                                               |                                                                                 |
 |losspass_filter(陀螺仪低通滤波)  |[lowpass_filter1.c](usual_control_algorithm/lowpass_filter1.c) |[lowpass_filter1.h](usual_control_algorithm/lowpass_filter1.h)                   |
@@ -138,10 +137,10 @@
 |大疆M2006                             |(C610-CAN)                                           |[M2006_can.c](Motor/M2006DRVCode/can.c)               |[M2006_can.h](Motor/M2006DRVCode/can.h)                                | 配置1M频率                                         | 
 |                                      |                                                     |[M2006_bsp_can.c](Motor/M2006DRVCode/bsp_can.c)       |[M2006_bsp_can.h](Motor/M2006DRVCode/bsp_can.h)                        |                                          |
 |                                      |                                                     |[M2006_can_receive.c](Motor/M2006DRVCode/CAN_receive.c)|[M2006_can_receive.h](Motor/M2006DRVCode/CAN_receive.h)               |                                           |  
-|大疆M3508                             |(C620-CAN&PWM)                                           |[M3508_can.c](Motor/M3508DRVCode/can.c)               |[M3508_can.h](Motor/M3508DRVCode/can.h)                                |配置1M频率                                      | 
+|大疆M3508 &M3510                            |(C620-CAN&PWM)                                           |[M3508_can.c](Motor/M3508DRVCode/can.c)               |[M3508_can.h](Motor/M3508DRVCode/can.h)                                |配置1M频率                                      | 
 |                                      |                                                     |[M3508_bsp_can.c](Motor/M3508DRVCode/bsp_can.c)       |[M3508_bsp_can.h](Motor/M3508DRVCode/bsp_can.h)                         |                                          |
 |                                      |                                                     |[M3508_can_receive.c](Motor/M3508DRVCode/CAN_receive.c)|[M3508_can_receive.h](Motor/M3508DRVCode/CAN_receive.h)                 |                                          |  
-|大疆M6020                             |(C630-CAN&PWM) 配置1M频率                                 |[M6020.c]                                             |[M6020.c]                                                                         |                                          |
+|大疆M6020 &M6025                            |(C630-CAN&PWM) 配置1M频率                                 |[M6020.c]                                             |[M6020.c]                                                                         |                                          |
 |                                      |                                                     |                                                      |                                                                        |                                          |
 |                                      |                                                     |                                                                       |
 |                                      |                                                     |                                                                       |
