@@ -61,6 +61,9 @@
 |Struct_typedef(常用数据定义)     |                                                               |[struct_typedef.h](usual_control_algorithm/struct_typedef.h)                     |
 |user_lib(常用运算函数)           |                                                               |[user_lib.h](usual_control_algorithm/user_lib.h)                                 |
 |HAL_Delay_us(适用所有板子)       |[HAL_Delay_us.c](usual_control_algorithm/HAL_Dealy_us.c)       |[HAL_Dealy_us.h](usual_control_algorithm/HAL_Dealy_us.h)                         |
+|str_deal(字符串处理算法)         |[str_deal.c](usual_control_algorithm/str_deal.c)               |[str_deal.h](usual_control_algorithm/str_deal.h)                                 |
+|                                |                                                               |                                                                                 |
+|                                |                                                               |                                                                                 |
 |                                |                                                               |                                                                                 |
 |                                |                                                               |                                                                                 |
 #### 常用开发模块库
