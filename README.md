@@ -63,8 +63,8 @@
 |HAL_Delay_us(适用所有板子)       |[HAL_Delay_us.c](usual_control_algorithm/HAL_Dealy_us.c)       |[HAL_Dealy_us.h](usual_control_algorithm/HAL_Dealy_us.h)                         |
 |str_deal(字符串处理算法)         |[str_deal.c](usual_control_algorithm/str_deal.c)               |[str_deal.h](usual_control_algorithm/str_deal.h)                                 |
 |vaildation_deal(校验算法)        |[vaildation_deal.c](usual_control_algorithm/validation_deal.c) |[vaildation.h](usual_control_algorithm/validation_deal.h)                        |
-|filter(常用滤波算法)             |[filters](usual_control_algorithm/filters.c)                  |[filters](usual_control_algorithm/filters.h)                                      |
-|                                |                                                               |                                                                                 |
+|filter(常用滤波算法)             |[filters.c](usual_control_algorithm/filters.c)                  |[filters.h](usual_control_algorithm/filters.h)                                   |
+|sort_search_deal(常用排序&搜索算法)|[sort_search_deal.c](usual_control_algorithm/sort_search_deal.c)|[sort_search_deal.h](usual_control_algorithm/sort_search_deal.ch)              |
 |                                |                                                               |                                                                                 |
 
 
