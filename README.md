@@ -1,6 +1,8 @@
 # HzMi-StudyTime
 持续更新中，有用的话请帮我右上角点一个star
 ![alt text](basement/all_image/md_image/md_image1.png)
+![alt text](<HzMI logo.jpg>)
+
 
 # 链接直通车
 ### Basement
@@ -92,7 +94,7 @@
 #### 常用陀螺仪算法库
 |develop_algorithm               |Code.c                                                         |Code.h                                                                           |
 |--------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------|
-|Kalman_filter(陀螺仪卡尔曼滤波)        |[kalman_filter1.c](usual_control_algorithm/Kalman1.c)          |[kalman_filter1.h](usual_control_algorithm/Kalman1.h)                      |
+|Kalman_filter(陀螺仪卡尔曼滤波)   |[kalman_filter1.c](usual_control_algorithm/Kalman1.c)          |[kalman_filter1.h](usual_control_algorithm/Kalman1.h)                      |
 |                                |[kalman_filter2.c](usual_control_algorithm/kalman2.c)          |[kalman_filter2.h](usual_control_algorithm/Kalman2.h)                            |
 |Quaternion(四元素陀螺仪解算)      |[Quaternion1.c](usual_control_algorithm/Quaternion1.c)         |[Quaternion1.h](usual_control_algorith/Quaternion1.h)                            |
 |                                |                                                               |                                                                                 |
