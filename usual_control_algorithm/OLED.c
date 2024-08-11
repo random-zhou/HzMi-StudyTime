@@ -1,9 +1,5 @@
-/*
- * oled.c
- *
- *  Created on: 2022年7月24日
- *      Author: Unicorn_Li
- */
+//需要初始化i2c2，不然的话就改为i2c1
+//普通配置即可
 #include "OLED.h"
 #include "OLED_FONT.h"
 #include "struct_typedef.h"

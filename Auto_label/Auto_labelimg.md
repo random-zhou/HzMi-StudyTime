@@ -9,7 +9,7 @@
 ## 第一个参数是输入地址，第二个参数是想修改到的类
 
 # 常用代码我都打包在auto_label.ipynb里了(函数的参数看看源码一下就懂啦)
-![auto_label.ipynb](auto_label.ipynb)
+[auto_label.ipynb](auto_label.ipynb)
 
 
 # 一般步骤

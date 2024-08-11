@@ -1,3 +1,5 @@
+#确保图片文件和标签文件一一对应,并删除多余文件
+
 import os  
   
 def alignment(img_path, label_path, cl_de=False):  

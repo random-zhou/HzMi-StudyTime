@@ -7,7 +7,7 @@
   * @note       
   * @history
   *  Version    Date            Author          Modification
-  *  V1.0.0     Dec-26-2018     RM RZ             1. done
+  *  V1.0.0     Aug-11-2024     ZSB            1. done
   *
   @verbatim
   ==============================================================================
@@ -29,10 +29,10 @@
 typedef enum
 {
     CAN_CHASSIS_ALL_ID = 0x200,
-    CAN_2006_M1_ID = 0x201,
-    CAN_2006_M2_ID = 0x202,
-    CAN_2006_M3_ID = 0x203,
-    CAN_2006_M4_ID = 0x204,
+    CAN_3510_M1_ID = 0x201,
+    CAN_3510_M2_ID = 0x202,
+    CAN_3510_M3_ID = 0x203,
+    CAN_3510_M4_ID = 0x204,
 
 //    CAN_YAW_MOTOR_ID = 0x205,
 //    CAN_PIT_MOTOR_ID = 0x206,
@@ -66,29 +66,29 @@ extern void CAN_cmd_chassis_reset_ID(void);
 
 /**
   * @brief          send control current of motor (0x201, 0x202, 0x203, 0x204)
-  * @param[in]      motor1: (0x201) 3508 motor control current, range [-16384,16384] 
-  * @param[in]      motor2: (0x202) 3508 motor control current, range [-16384,16384] 
-  * @param[in]      motor3: (0x203) 3508 motor control current, range [-16384,16384] 
-  * @param[in]      motor4: (0x204) 3508 motor control current, range [-16384,16384] 
+  * @param[in]      motor1: (0x201) 3510 motor control current, range [-16384,16384] 
+  * @param[in]      motor2: (0x202) 3510 motor control current, range [-16384,16384] 
+  * @param[in]      motor3: (0x203) 3510 motor control current, range [-16384,16384] 
+  * @param[in]      motor4: (0x204) 3510 motor control current, range [-16384,16384] 
   * @retval         none
   */
 /**
   * @brief          发送电机控制电流(0x201,0x202,0x203,0x204)
-  * @param[in]      motor1: (0x201) 3508电机控制电流, 范围 [-16384,16384]
-  * @param[in]      motor2: (0x202) 3508电机控制电流, 范围 [-16384,16384]
-  * @param[in]      motor3: (0x203) 3508电机控制电流, 范围 [-16384,16384]
-  * @param[in]      motor4: (0x204) 3508电机控制电流, 范围 [-16384,16384]
+  * @param[in]      motor1: (0x201) 3510电机控制电流, 范围 [-16384,16384]
+  * @param[in]      motor2: (0x202) 3510电机控制电流, 范围 [-16384,16384]
+  * @param[in]      motor3: (0x203) 3510电机控制电流, 范围 [-16384,16384]
+  * @param[in]      motor4: (0x204) 3510电机控制电流, 范围 [-16384,16384]
   * @retval         none
   */
 extern void CAN_cmd_chassis(int16_t motor1, int16_t motor2, int16_t motor3, int16_t motor4);
 
 /**
-  * @brief          return the chassis 3508 motor data point
+  * @brief          return the chassis 3510 motor data point
   * @param[in]      i: motor number,range [0,3]
   * @retval         motor data point
   */
 /**
-  * @brief          返回底盘电机 3508电机数据指针
+  * @brief          返回底盘电机 3510电机数据指针
   * @param[in]      i: 电机编号,范围[0,3]
   * @retval         电机数据指针
   */

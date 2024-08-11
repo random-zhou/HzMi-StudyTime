@@ -51,13 +51,39 @@ typedef struct STEPMotor
 }STEPMotor;
 
 //void Motor_Run(uint32_t dir,uint32_t num,uint32_t speed);
-void STEPPER_ParaSet(STEPMotor *stepper,Dir direction,float stepangle,int setturns,int tim,double subdivide);
+// 设置步进电机参数的函数声明
+// stepper: 指向步进电机结构体的指针
+// direction: 电机的旋转方向，通常为枚举类型
+// stepangle: 电机每步的旋转角度，单位为度
+// setturns: 电机需要旋转的圈数
+// tim: 脉冲间隔时间，单位为微秒
+// subdivide: 细分等级，用于更精细地控制电机步进
+void STEPPER_ParaSet(STEPMotor *stepper, Dir direction, float stepangle, int setturns, int tim, double subdivide);
+
+// 初始化步进电机参数的函数声明
+// stepper: 指向步进电机结构体的指针
 void STEPPER_ParaInit(STEPMotor *stepper);
+
+// 初始化步进电机的硬件引脚和相关配置的函数声明
 void STEPPER_Init(void);
+
+// 控制步进电机转动的函数声明
+// stepper: 指向步进电机结构体的指针
 void STEPPER_MOVE(STEPMotor *stepper);
 
+// 获取步进电机实时角度反馈的函数声明
+// stepper: 指向步进电机结构体的指针
+// 返回值: 电机当前旋转的角度，单位为度
 float STEPPER_GetAngleFeedBack(STEPMotor *stepper);
+
+// 获取步进电机实时圈数反馈的函数声明
+// stepper: 指向步进电机结构体的指针
+// 返回值: 电机当前旋转的圈数
 uint16_t STEPPER_GetTurnsFeedBack(STEPMotor *stepper);
+
+// 获取步进电机运行状态反馈的函数声明
+// stepper: 指向步进电机结构体的指针
+// 返回值: 电机当前的运行状态，通常为枚举类型
 State STEPPER_GetStateFeedBack(STEPMotor *stepper);
 
 

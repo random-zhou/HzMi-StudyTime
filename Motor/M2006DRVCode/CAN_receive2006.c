@@ -7,7 +7,7 @@
   * @note       
   * @history
   *  Version    Date            Author          Modification
-  *  V1.0.0     Dec-26-2018     RM RZ             1. done
+  *  V1.0.0     Aug-11-2024     ZSB            1. done
   *
   @verbatim
   ==============================================================================
@@ -16,9 +16,14 @@
   @endverbatim
   ****************************(C) COPYRIGHT 2024 HZMI****************************
   */
-#include "CAN_receive.h"
+#include "CAN_receive2006.h"
 #include "main.h"
-
+/*
+  * @param[in]      motor1: (0x201) 2006电机控制电流, 范围 [-16384,16384]
+  * @param[in]      motor2: (0x202) 2006电机控制电流, 范围 [-16384,16384]
+  * @param[in]      motor3: (0x203) 2006电机控制电流, 范围 [-16384,16384]
+  * @param[in]      motor4: (0x204) 2006电机控制电流, 范围 [-16384,16384]
+*/
 
 
 extern CAN_HandleTypeDef hcan1;
@@ -61,10 +66,9 @@ extern CAN_HandleTypeDef hcan2;
         (ptr)->avg_rate = (int32_t)(temp_sum / RATE_BUF_SIZE); /*记录此刻平均速度*/\
     }
 /*
-motor data,  0:chassis motor1 3508;1:chassis motor3 3508;2:chassis motor3 3508;3:chassis motor4 3508;
-4:yaw gimbal motor 6020;5:pitch gimbal motor 6020;6:trigger motor 2006;
-电机数据, 0:底盘电机1 3508电机,  1:底盘电机2 3508电机,2:底盘电机3 3508电机,3:底盘电机4 3508电机;
-4:yaw云台电机 6020电机; 5:pitch云台电机 6020电机; 6:拨弹电机 2006电机*/
+motor data,  0:chassis motor1 2006;1:chassis motor3 2006;2:chassis motor3 2006;3:chassis motor4 2006;
+电机数据, 0:底盘电机1 2006电机,  1:底盘电机2 2006电机,2:底盘电机3 2006电机,3:底盘电机4 2006电机;
+*/
 Motor_Measure_T motor_chassis[4];
 
 

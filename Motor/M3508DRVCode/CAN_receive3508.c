@@ -7,7 +7,7 @@
   * @note       
   * @history
   *  Version    Date            Author          Modification
-  *  V1.0.0     Dec-26-2018     RM RZ             1. done
+  *  V1.0.0     Aug-11-2024     ZSB            1. done
   *
   @verbatim
   ==============================================================================
@@ -16,10 +16,15 @@
   @endverbatim
   ****************************(C) COPYRIGHT 2024 HZMI****************************
   */
-#include "CAN_receive.h"
+#include "CAN_receive3508.h"
 #include "main.h"
 
-
+/*
+  * @param[in]      motor1: (0x201) 3508电机控制电流, 范围 [-16384,16384]
+  * @param[in]      motor2: (0x202) 3508电机控制电流, 范围 [-16384,16384]
+  * @param[in]      motor3: (0x203) 3508电机控制电流, 范围 [-16384,16384]
+  * @param[in]      motor4: (0x204) 3508电机控制电流, 范围 [-16384,16384]
+*/
 
 extern CAN_HandleTypeDef hcan1;
 extern CAN_HandleTypeDef hcan2;
@@ -48,7 +53,7 @@ extern CAN_HandleTypeDef hcan2;
             (ptr)->ecd_raw_rate = (ptr)->ecd_diff; /*记录此刻编码速率*/ \
         } \
         (ptr)->deal_ecd = (ptr)->raw_ecd + (ptr)->round_cnt * 8191; /*转子累积编码*/ \
-        (ptr)->ecd_angle = ((float)(((ptr)->raw_ecd - (ptr)->ecd_bias) * 360 / 8191) + (ptr)->round_cnt * 360) / 36; /*轴转累积角度*/ \
+        (ptr)->ecd_angle = ((float)(((ptr)->raw_ecd - (ptr)->ecd_bias) * 360 / 8191) + (ptr)->round_cnt * 360) / 19; /*轴转累积角度*/ \
         (ptr)->rate_buf[(ptr)->buf_count++] = (ptr)->ecd_raw_rate;/*均值滤波*/ \
         if ((ptr)->buf_count == RATE_BUF_SIZE) \
         { \
@@ -62,9 +67,7 @@ extern CAN_HandleTypeDef hcan2;
     }
 /*
 motor data,  0:chassis motor1 3508;1:chassis motor3 3508;2:chassis motor3 3508;3:chassis motor4 3508;
-4:yaw gimbal motor 6020;5:pitch gimbal motor 6020;6:trigger motor 2006;
 电机数据, 0:底盘电机1 3508电机,  1:底盘电机2 3508电机,2:底盘电机3 3508电机,3:底盘电机4 3508电机;
-4:yaw云台电机 6020电机; 5:pitch云台电机 6020电机; 6:拨弹电机 2006电机*/
 Motor_Measure_T motor_chassis[4];
 
 
@@ -95,25 +98,25 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
     // 根据接收到的消息ID进行判断，调用相应的处理函数
     switch (rx_header.StdId) // 标准ID字段
     {
-        case CAN_2006_M1_ID: // 假设CAN_2006_M1_ID是电机1的ID
+        case CAN_3508_M1_ID: // 假设CAN_3508_M1_ID是电机1的ID
         {
             // 调用get_motor_measure函数处理电机1的数据
             get_motor_measure(&motor_chassis[0], rx_data);
             break;
         }
-        case CAN_2006_M2_ID: // 假设CAN_2006_M2_ID是电机2的ID
+        case CAN_3508_M2_ID: // 假设CAN_3508_M2_ID是电机2的ID
         {
             // 调用get_motor_measure函数处理电机2的数据
             get_motor_measure(&motor_chassis[1], rx_data);
             break;
         }
-        case CAN_2006_M3_ID: // 假设CAN_2006_M3_ID是电机3的ID
+        case CAN_3508_M3_ID: // 假设CAN_3508_M3_ID是电机3的ID
         {
             // 调用get_motor_measure函数处理电机3的数据
             get_motor_measure(&motor_chassis[2], rx_data);
             break;
         }
-        case CAN_2006_M4_ID: // 假设CAN_2006_M4_ID是电机4的ID
+        case CAN_3508_M4_ID: // 假设CAN_3508_M4_ID是电机4的ID
         {
             // 调用get_motor_measure函数处理电机4的数据
             get_motor_measure(&motor_chassis[3], rx_data);
