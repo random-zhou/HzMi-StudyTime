@@ -376,4 +376,4 @@
     -   https://detail.tmall.com/item.htm?abbucket=11&id=549123908094&ns=1&spm=a21n57.1.0.0.7967523cr3SQ59
 
 ## 6 致谢
-本教程参考了中科大大佬的git教程，感谢大佬的无私开
+本教程参考了中科大大佬的git教程，感谢大佬的无私开源
