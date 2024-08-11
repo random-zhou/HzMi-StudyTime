@@ -1,3 +1,20 @@
+/**
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  * @file       sort_search_deal.c/h
+  * @brief      ≥£”√≈≈–Ú&À—À˜À„∑®
+  * @note       
+  * @history
+  *  Version    Date            Author          Modification
+  *  V1.0.0     Aug-11-2024     ZSB              1. done
+  *
+  @verbatim
+  ==============================================================================
+
+  ==============================================================================
+  @endverbatim
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  */
+
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>

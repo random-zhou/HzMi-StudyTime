@@ -1,3 +1,20 @@
+/**
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  * @file       struct_typedef.h
+  * @brief      常用数据定义
+  * @note       
+  * @history
+  *  Version    Date            Author          Modification
+  *  V1.0.0     Aug-11-2024     ZSB              1. done
+  *
+  @verbatim
+  ==============================================================================
+
+  ==============================================================================
+  @endverbatim
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  */
+ 
 #ifndef STRUCT_TYPEDEF_H
 #define STRUCT_TYPEDEF_H
 

@@ -1,3 +1,19 @@
+/**
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  * @file       str_deal.c/h
+  * @brief      字符串处理算法
+  * @note       
+  * @history
+  *  Version    Date            Author          Modification
+  *  V1.0.0     Aug-11-2024     ZSB              1. done
+  *
+  @verbatim
+  ==============================================================================
+
+  ==============================================================================
+  @endverbatim
+  ****************************(C) COPYRIGHT 2024 HZMI****************************
+  */
 #include <stdio.h>
 #include <string.h>
 #include "str_deal.h"

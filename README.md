@@ -20,7 +20,22 @@
 |C++                 |[C++](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/C%2B%2B%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                            | 
 
 
+# MCU相关文档(stm32系列)
+|document                        |Code.c                                                         |Code.h                                                                           |
+|--------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------|
+|Struct_typedef(常用数据定义)     |                                                               |[struct_typedef.h](usual_control_algorithm/struct_typedef.h)                     |
+|user_lib(常用运算函数)           |                                                               |[user_lib.h](usual_control_algorithm/user_lib.h)                                 |
+|HAL_Delay_us(适用所有板子)       |[HAL_Delay_us.c](usual_control_algorithm/HAL_Dealy_us.c)       |[HAL_Dealy_us.h](usual_control_algorithm/HAL_Dealy_us.h)                         |
+|str_deal(字符串处理算法)         |[str_deal.c](usual_control_algorithm/str_deal.c)               |[str_deal.h](usual_control_algorithm/str_deal.h)                                 |
+|vaildation_deal(校验算法)        |[vaildation_deal.c](usual_control_algorithm/validation_deal.c) |[vaildation.h](usual_control_algorithm/validation_deal.h)                        |
+|filter(常用滤波算法)             |[filters.c](usual_control_algorithm/filters.c)                  |[filters.h](usual_control_algorithm/filters.h)                                   |
+|sort_search_deal(常用排序&搜索算法)|[sort_search_deal.c](usual_control_algorithm/sort_search_deal.c)|[sort_search_deal.h](usual_control_algorithm/sort_search_deal.ch)              |
 
+
+
+
+
+# ROS相关文档
 
 
 # 链接直通车
@@ -64,7 +79,7 @@
 #### 常用开发自定义库
 |develop_algorithm               |Code.c                                                         |Code.h                                                                           |
 |--------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------|
-|Struct_typedef(常用数据定义)     |                                                               |[struct_typedef.h](usual_control_algorithm/struct_typedef.h)                     |
+|Struct_typedef(常用数据定义)    |                                                               |[struct_typedef.h](usual_control_algorithm/struct_typedef.h)                     |
 |user_lib(常用运算函数)           |                                                               |[user_lib.h](usual_control_algorithm/user_lib.h)                                 |
 |HAL_Delay_us(适用所有板子)       |[HAL_Delay_us.c](usual_control_algorithm/HAL_Dealy_us.c)       |[HAL_Dealy_us.h](usual_control_algorithm/HAL_Dealy_us.h)                         |
 |str_deal(字符串处理算法)         |[str_deal.c](usual_control_algorithm/str_deal.c)               |[str_deal.h](usual_control_algorithm/str_deal.h)                                 |
