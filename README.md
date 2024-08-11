@@ -4,31 +4,35 @@
 ![alt text](<HzMI logo.jpg>)
 
 
+# 赫兹矩阵创新实验室必学指南
+|document            | related information                                                                                                                                                                                  |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|vscode              |[vscode](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Vscode%E5%AE%89%E8%A3%85%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                           |
+|github加速器         |[steam++](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/steam%2B%2B%E5%8A%A0%E9%80%9F%E5%99%A8%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E6%95%99%E5%AD%A6.md)                         |
+|WSL2配置教程         |[WSL2]                                                                                                                                                                                              |    
+|Server服务器教程     |[Server-connection](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Server%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B.md)                                         | 
+|Linux               |[Linux](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Linux%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%95%99%E5%AD%A6.md)                                                            |
+|Git                 |[Git](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%95%99%E5%AD%A6.md)                                             |                                                                       
+|Markdown            |[Markdown](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/markdown%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%95%99%E5%AD%A6.md)                                     |                                                                     
+|Python              |[Python](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Python%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                               |                                                                       
+|C                   |[C](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                               |
+|Miniconda           |[Miniconda](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/miniconda%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                       |
+|C++                 |[C++](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/C%2B%2B%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                            | 
+
+
+
+
+
 # 链接直通车
 ### Basement
 |basement            |related information                                                                                                                                                                                  |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|vscode              |[vscode](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Vscode%E5%AE%89%E8%A3%85%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                           |
-|Linux               |[Linux](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Linux%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%95%99%E5%AD%A6.md)                                                             |                                                                       
-|Git                 |[Git](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%95%99%E5%AD%A6.md)                                                                 |                                                                       
-|Markdown            |[Markdown](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/markdown%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%95%99%E5%AD%A6.md)                                                       |                                                                     
-|Python              |[Python](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Python%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                                             |                                                                       
-|C                   |[C](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                                     |                                                                       
-|C++                 |[C++](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/C%2B%2B%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                             |                                                                       
-|Miniconda           |[Miniconda](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/miniconda%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6.md)                                                                       |                                                                       
-|Server服务器教程     |[Server-connection](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/Server%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B.md)                                                         |                                                                       
-|WSL2(教程)           |[WSL2]                                                                                                                                                                                              |         
+                                                                                                                          
+                                                                                                                                                                                                        
+    
 |Chatgpt             |[Chatgpt]                                                                                                                                                                                            |    
-|netron(神经网络可视化工具)   |[netron]                                                                                                                                                                                     |    
-|github加速器         |[steam++](https://github.com/random-zhou/HzMi-StudyTime/blob/main/basement/steam%2B%2B%E5%8A%A0%E9%80%9F%E5%99%A8%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E6%95%99%E5%AD%A6.md)                         |    
-|                    |                                                                                                                                                                                                     |    
-|                    |                                                                                                                                                                                                     |    
-|                    |                                                                                                                                                                                                     |    
-|                    |                                                                                                                                                                                                     |    
-|                    |                                                                                                                                                                                                     |    
-|                    |                                                                                                                                                                                                     |    
-|                    |                                                                                                                                                                                                     |    
-|                    |                                                                                                                                                                                                     |    
+|netron(神经网络可视化工具)   |[netron]                                                                                                                                                                                     |      
+ 
 
 
 
