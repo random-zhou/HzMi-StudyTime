@@ -34,6 +34,8 @@
 |kalman_filter(卡尔曼滤波一阶&二阶) |[kalman_filter2.c](usual_control_algorithm/kalman2.c)          |[kalman_filter2.h](usual_control_algorithm/Kalman2.h)                            |
 
 ## 控制反馈数据处理算法系列
+|document                        |Code.c                                                         |Code.h                                                                           |
+|--------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------|
 |PID                             |[PID1.c](usual_control_algorithm/PID1.c)                       |[PID1.h](usual_control_algorithm/PID1.h)                                         |
 |                                |[PID2.c](usual_control_algorithm/PID2.c)                       |[PID2.h](usual_control_algorithm/PID2.h)                                         |
 |                                |[PID3.c](usual_control_algorithm/PID3.c)                       |[PID3.h](usual_control_algorithm/PID3.h)                                         |
