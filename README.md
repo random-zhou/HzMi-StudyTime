@@ -4,12 +4,16 @@
 ![alt text](<HzMI logo.jpg>)
 
 
-
-[HzMI-Basic](https://github.com/random-zhou/HzMI-Basic)
-[HzMI-ComputerVision_RadarSLAM](https://github.com/random-zhou/HzMI-ComputerVision_RadarSLAM)
-[HzMI-Control_Decision_Analysis](https://github.com/random-zhou/HzMI-Control_Decision_Analysis)
-[HzMI-Electronic_And_Engineering](https://github.com/random-zhou/HzMI-Electronic_And_Engineering)
-[HzMI-NLP_LLM](https://github.com/random-zhou/HzMI-NLP_LLM)
+> - 赫兹矩阵创新实验室基础教程
+> [HzMI-Basic](https://github.com/random-zhou/HzMI-Basic)
+> - 赫兹矩阵创新实验室视觉与雷达建模相关
+> [HzMI-ComputerVision_RadarSLAM](https://github.com/random-zhou/HzMI-ComputerVision_RadarSLAM)
+> - 赫兹矩阵创新实验室控制决策数据分析相关
+> [HzMI-Control_Decision_Analysis](https://github.com/random-zhou/HzMI-Control_Decision_Analysis)
+> - 赫兹矩阵创新实验室电子工程相关
+> [HzMI-Electronic_And_Engineering](https://github.com/random-zhou/HzMI-Electronic_And_Engineering)
+> - 赫兹矩阵创新实验室自然语言处理与大模型相关
+> [HzMI-NLP_LLM](https://github.com/random-zhou/HzMI-NLP_LLM)
 
 
 
