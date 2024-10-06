@@ -18,10 +18,57 @@
 >
 > - 赫兹矩阵创新实验室自然语言处理与大模型相关
 > [HzMI-NLP_LLM](https://github.com/random-zhou/HzMI-NLP_LLM)
+> [上海人工智能实验室书生大模型实战营](https://github.com/InternLM/Tutorial/tree/camp4)
 
 
+# 目录
+|part                             |related information                                                                                                                                                                                |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|HzMI-Basic                       |                                                                                                                                                                                                    |       
+|                                 |vscode教程               |                                                                                                                                  
+|                                 |github加速器教程         |                                                                                                                                                          
+|                                 |WSL2配置教程             |    
+|                                 |Server服务器教程        |                                                                                                                                                          
+|                                 |Linux教程               |                                                                                                                                                                    
+|                                 |Git教程                 |                                                                                                                                                                 
+|                                 |Markdown教程            |                                                                                                                                                        
+|                                 |Python教程              |                                                                                                                                     
+|                                 |C教程                   |                                               
+|                                 |Miniconda教程           |                                                       
+|                                 |C++教程                 |                                                             
+|                                 |                                                                                                                                                                                                   |   
+|                                 |                                                                                                                                                                                                   |   
+|HzMI-ComputerVision_RadarSLAM    |                                                                                                                                                                                                 |   
+|                                 |视觉数据集分类处理算法系列|   
+|                                 |ROS相关文档              |                                                                     
+|                                 |                                                                                                                                                                                                   |   
+|                                 |                                                                                                                                                                                                   |   
+|HzMI-Control_Decision_Analysis   |                                                                                                                                                                                                   |   
+|                                 |Data_Processing_Algorithm(数据处理算法系列)|   
+|                                 |Motion_Control_Feedback_Algorithm(运动控制反馈数据处理算法系列)|
+|                                 |Communication_Formatting_Algorithm(通讯接受格式化算法系列)|   
+|                                 |Optimization_Algorithm(常用优化算法)|  
+|                                 |Motor_Drive_Control_Usage(电机驱动算法系列)|   
+|                                 |Other_Module_Usage(其他模块驱动算法系列)|  
+|                                 |Parameter_Debugging_Assistant(调参助手)|   
+|                                 |ROS related documents(ROS相关文档)|  
+|                                 |                                                                                                                                                                                                   |   
+|                                 |                                                                                                                                                                                                   | 
+|HzMI-Electronic_And_Engineering  |                                                                                                                                                                                                   |  
+|                                 |                                                                                                                                                                                                   |   
+|                                 |                                                                                                                                                                                                   |   
+|HzMI-NLP_LLM                     |                                                                                                                                                                                                 |   
+|                                 |                                                                                                                                                                                                   |   
+|                                 |                                                                                                                                                                                                   |   
+|                                 |                                                                                                                                                                                                   |   
 
 
+ 
+  
+
+
+> HzMI-Basic 
+>
 
 # 赫兹矩阵创新实验室必学文档
 |document            | related information                                                                                                                                                                                  |
