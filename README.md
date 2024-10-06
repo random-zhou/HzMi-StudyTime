@@ -4,6 +4,8 @@
 ![alt text](<HzMI logo.jpg>)
 
 # 链接直通车
+> - 浦语书生大模型实战营
+> [浦语书生大模型实战营](https://github.com/InternLM/Tutorial/tree/camp4)
 > - 赫兹矩阵创新实验室基础教程
 > [HzMI-Basic](https://github.com/random-zhou/HzMI-Basic)
 > 
@@ -19,8 +21,7 @@
 > - 赫兹矩阵创新实验室自然语言处理与大模型相关
 > [HzMI-NLP_LLM](https://github.com/random-zhou/HzMI-NLP_LLM)
 > 
-> - 浦语书生大模型实战营
-> [浦语书生大模型实战营](https://github.com/InternLM/Tutorial/tree/camp4)
+
 
 
 # 目录
